@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE HelpCollection SYSTEM "MS-Help://Hx/Resources/HelpCollection.dtd">
+<HelpCollection DTDVersion="1.0" FileVersion="" LangId="1033" Title="Mainframe Modernization: Assessment and Discovery Guide">
+	<CompilerOptions OutputFile="MainframeMigGuide.HxS" StopWordFile="msdnFTSstop_Unicode.stp" CreateFullTextIndex="Yes" CompileResult="HxiHxs">
+		<IncludeFile File="MainframeMigGuide.HxF" />
+	</CompilerOptions>
+	<TOCDef File="MainframeMigGuide.HxT" />
+	<KeywordIndexDef File="MainframeMigGuideF.HxK" />
+	<KeywordIndexDef File="MainframeMigGuideN.HxK" />
+	<KeywordIndexDef File="MainframeMigGuideA.HxK" />
+	<KeywordIndexDef File="MainframeMigGuideS.HxK" />
+	<KeywordIndexDef File="MainframeMigGuideB.HxK" />
+	<ItemMoniker Name="!DefaultTOC" ProgId="HxDs.HxHierarchy" InitData="AnyString" />
+	<ItemMoniker Name="!DefaultFullTextSearch" ProgId="HxDs.HxFullTextSearch" InitData="AnyString" />
+	<ItemMoniker Name="!DefaultAssociativeIndex" ProgId="HxDs.HxIndex" InitData="A" />
+	<ItemMoniker Name="!DefaultContextWindowIndex" ProgId="HxDs.HxIndex" InitData="F" />
+	<ItemMoniker Name="!DefaultNamedUrlIndex" ProgId="HxDs.HxIndex" InitData="NamedUrl" />
+	<ItemMoniker Name="!DefaultSearchWindowIndex" ProgId="HxDs.HxIndex" InitData="S" />
+	<ItemMoniker Name="!DefaultDynamicLinkIndex" ProgId="HxDs.HxIndex" InitData="B" />
+</HelpCollection>

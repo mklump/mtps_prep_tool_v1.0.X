@@ -1,0 +1,64 @@
+<?xml version="1.0" standalone="yes"?>
+<TopicGuidItems>
+  <xs:schema id="TopicGuidItems" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="TopicGuidItems" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="TopicGuidItem">
+            <xs:complexType>
+              <xs:attribute name="ItemID" type="xs:int" use="required" />
+              <xs:attribute name="topictitle" type="xs:string" />
+              <xs:attribute name="topicguid" type="xs:string" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//TopicGuidItem" />
+        <xs:field xpath="@ItemID" />
+      </xs:unique>
+      <xs:unique name="Constraint2">
+        <xs:selector xpath=".//TopicGuidItem" />
+        <xs:field xpath="@topicguid" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <TopicGuidItem ItemID="1" topictitle="Additional Resources: Basic to Standardized Checklist" topicguid="7742c85e-7e78-4318-9c64-851812bb5080" />
+  <TopicGuidItem ItemID="2" topictitle="Additional Resources: Tools and Technologies" topicguid="deb93a16-e76b-4d5a-9f57-36be717fd992" />
+  <TopicGuidItem ItemID="3" topictitle="Audience" topicguid="aefd5801-cbf4-4908-a820-6d7d55a69380" />
+  <TopicGuidItem ItemID="4" topictitle="Checkpoint: Antivirus Software for Desktops" topicguid="3e16cf27-3523-4790-953c-b23088136aba" />
+  <TopicGuidItem ItemID="5" topictitle="Checkpoint: Automated Patch Distribution to Desktops and Laptops" topicguid="4ecf82ed-3032-4416-b79c-cce3d95db8af" />
+  <TopicGuidItem ItemID="6" topictitle="Checkpoint: Availability Monitoring of Critical Servers" topicguid="f73710a6-6ea6-4dec-9de8-ccac840a2952" />
+  <TopicGuidItem ItemID="7" topictitle="Checkpoint: Centralized Firewall Services" topicguid="aede7692-9a41-4885-bc12-c2d9d3369a34" />
+  <TopicGuidItem ItemID="8" topictitle="Checkpoint: Centralized Management of Mobile Devices" topicguid="16a2a863-c761-49e0-8a54-ea86d8172c62" />
+  <TopicGuidItem ItemID="9" topictitle="Checkpoint: Consolidation of Desktop Images to Two Operating System Versions" topicguid="d784e515-5f38-4513-b253-44ab5264b7d4" />
+  <TopicGuidItem ItemID="10" topictitle="Checkpoint: Defined Backup and Restore Services for Critical Servers" topicguid="d7726c38-8834-4e50-a36b-67f61dd3310c" />
+  <TopicGuidItem ItemID="11" topictitle="Checkpoint: Defined Standard Images for Desktops and Laptops" topicguid="7f7378e7-c973-4a76-b322-86139f7292fd" />
+  <TopicGuidItem ItemID="12" topictitle="Checkpoint: Identity Validation, Data Protection, and Data Backup of Mobile Devices Checkpoint" topicguid="6970187f-0547-4f28-8731-e5d92e68942d" />
+  <TopicGuidItem ItemID="13" topictitle="Checkpoint: Internally Managed Basic Networking Services (DNS, DHCP, WINS)" topicguid="bab84ca3-01d2-4447-8381-70035360efd9" />
+  <TopicGuidItem ItemID="14" topictitle="Checkpoint: Security Policies, Risk Assessment, Incident Response, and Data Security" topicguid="64cac260-c8f6-4465-9344-11236a19627e" />
+  <TopicGuidItem ItemID="15" topictitle="Checkpoint: Support and Change Management Process" topicguid="19aef7bf-8b91-44ed-8af8-56e3f435bc4b" />
+  <TopicGuidItem ItemID="16" topictitle="Core Infrastructure Optimization Capabilities" topicguid="304b4e66-066d-45c5-9782-b794eb0a5b31" />
+  <TopicGuidItem ItemID="17" topictitle="Core Infrastructure Optimization Implementer Resource Guide: Basic to Standardized" topicguid="34070e0a-8b4c-4612-ba7d-ac8ac95b8531" />
+  <TopicGuidItem ItemID="18" topictitle="Core Infrastructure Optimization Model Levels" topicguid="c987fcb6-f035-4b17-8600-12fc3089c50b" />
+  <TopicGuidItem ItemID="19" topictitle="Infrastructure Optimization Concept" topicguid="d12cb74f-e0a7-49f3-8032-2920d7582d20" />
+  <TopicGuidItem ItemID="20" topictitle="Introduction" topicguid="4869c077-be95-4e64-9f44-74314d48d81b" />
+  <TopicGuidItem ItemID="21" topictitle="Introduction" topicguid="e5bf42e8-f564-4da6-bdaa-1fd865fdd390" />
+  <TopicGuidItem ItemID="22" topictitle="Introduction" topicguid="7c8316a0-6a2e-4365-badc-dabb456f93c2" />
+  <TopicGuidItem ItemID="23" topictitle="Introduction" topicguid="172ef04f-0e37-4f12-ba14-62988b704760" />
+  <TopicGuidItem ItemID="24" topictitle="Introduction" topicguid="fb5263c9-3c65-4c67-93c7-b1450e21f0dc" />
+  <TopicGuidItem ItemID="25" topictitle="Introduction" topicguid="02b14f84-d348-484e-a21e-b39bafd0386b" />
+  <TopicGuidItem ItemID="26" topictitle="Requirement: Antivirus Software for Desktops" topicguid="a58bb342-06b8-4baa-a020-032cd22a22da" />
+  <TopicGuidItem ItemID="27" topictitle="Requirement: Automated Patch Distribution to Desktops and Laptops" topicguid="e2ae7c82-119e-4004-a9bf-e32e17cc02ff" />
+  <TopicGuidItem ItemID="28" topictitle="Requirement: Availability Monitoring of Critical Servers" topicguid="11d2f66d-1c64-4fc2-958a-6f9592459df9" />
+  <TopicGuidItem ItemID="29" topictitle="Requirement: Centralized Firewall Services" topicguid="78752f69-9ec4-41f0-ae19-c4de36c5e8b3" />
+  <TopicGuidItem ItemID="30" topictitle="Requirement: Centralized Management of Mobile Devices" topicguid="bc197174-f693-4f8a-a205-a2ae905c42c5" />
+  <TopicGuidItem ItemID="31" topictitle="Requirement: Consolidation of Desktop Images to Two Operating System Versions" topicguid="87230763-b0ff-4077-9084-37f280eadbce" />
+  <TopicGuidItem ItemID="32" topictitle="Requirement: Defined Backup and Restore Services for Critical Servers" topicguid="32943433-50e6-4a7f-b8c2-08f20c15ca71" />
+  <TopicGuidItem ItemID="33" topictitle="Requirement: Defined Standard Images for Desktops and Laptops" topicguid="ba655541-a4e3-4a7e-a395-c6e66b1143e7" />
+  <TopicGuidItem ItemID="34" topictitle="Requirement: Directory Services for Authentication of Users" topicguid="bb5db181-c9f3-40f4-b7aa-6ec815c60e2d" />
+  <TopicGuidItem ItemID="35" topictitle="Requirement: Identity Validation, Data Protection, and Data Backup of Mobile Devices" topicguid="c98a131c-2ba9-48cc-bbf5-b67a8d530f6b" />
+  <TopicGuidItem ItemID="36" topictitle="Requirement: Internally Managed Basic Networking Services (DNS, DHCP, WINS)" topicguid="2eef4e4f-3983-4575-a097-560c6544983b" />
+  <TopicGuidItem ItemID="37" topictitle="Requirement: Security Policies, Risk Assessment, Incident Response, and Data Security" topicguid="1bbc3f35-de96-4a03-be3e-a9baa8a88d3c" />
+  <TopicGuidItem ItemID="38" topictitle="Requirement: Support and Change Management Process" topicguid="d70ab04a-1033-4eab-8f5e-f9b599843053" />
+</TopicGuidItems>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="MtpsPrepTool.exe" version="2.2.0.6" publicKeyToken="ba685ee2eb8d3a09" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Icon1.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MtpsPrepTool" version="2.2.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="MtpsPrepTool.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MagickNet.dll" size="3518464">
+      <assemblyIdentity name="MagickNet" version="1.0.0.3" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>CPgeWaeHTi9bok7ZYOgBqjnuxG8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MtpsPrepTool.exe" size="118784">
+      <assemblyIdentity name="MtpsPrepTool" version="2.2.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>f/rf2C1FpfwlfHBDOJFRMVjvElE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Icon1.ico" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>VklA+dWpBMG3sNu8ZdtkQX1HBwE=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=REDMOND\v-maklum" issuerKeyHash="0e09a893d4b9e942b617361186547bd4f84026bb" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>wRMqmiL/5PkYH1AZO4sBVMDMSiU=</DigestValue></Reference></SignedInfo><SignatureValue>ikDaQEIRv4uZhI3WJOkZUn/joDyniPN4cyhRHduFL3dKMgD0epvBJZvNf4gz4v3aaQSYlWFRtuEJncRh2XbRpvIS32i7Fn6Io+UKbjV7xNDCRoMlIRZqbnaqp/5brPmrk5W/HDYuWGteLuOheO4huHsYEnL7eBBw5csGdbOCqf4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>p13gfTPAciDOmNb+FncpPncRjMsLpanSR+/XLpPZEL+1qEiL4bdgVnER1mJaYpue1eu68fo8Y8DMC+d7by3Cs4NmTx2bd29pG3sgP0i2cPfmGMo6r2/QCW0DNb9hTb9W1ymqRewW11FPb5S3Z8qut5ZYQFkahbuyesMfnYxhjy0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="254accc054018b3b19501f18f9e4ff229a2a13c1" Description="" Url=""><as:assemblyIdentity name="MtpsPrepTool.exe" version="2.2.0.6" publicKeyToken="ba685ee2eb8d3a09" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=REDMOND\v-maklum</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>8I3prK6/mQgZNjeRGf24WtAYY8I=</DigestValue></Reference></SignedInfo><SignatureValue>TnjL7jvH29rY2i4iPIKGLNnA70maj247mAMMQfLNvaiIzuedggQ2a+h/UhbmIGP/iKJlT4XQKY3ZG16hENzMRYSN8VWZn3n5OpOuDlh/eOeistyvplXQQ/L12bBtYtn1gfz9DM2ULS2XKgadMDAHqVUNo+JuuJdBfaoUqHnQw1o=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>p13gfTPAciDOmNb+FncpPncRjMsLpanSR+/XLpPZEL+1qEiL4bdgVnER1mJaYpue1eu68fo8Y8DMC+d7by3Cs4NmTx2bd29pG3sgP0i2cPfmGMo6r2/QCW0DNb9hTb9W1ymqRewW11FPb5S3Z8qut5ZYQFkahbuyesMfnYxhjy0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCAT6gAwIBAgIQ2XPVBWFQUJpEF27m0M075TAJBgUrDgMCHQUAMCsxKTAnBgNVBAMeIABSAEUARABNAE8ATgBEAFwAdgAtAG0AYQBrAGwAdQBtMB4XDTA3MDgwMjIwMjA1MVoXDTA4MDgwMjAyMjA1MVowKzEpMCcGA1UEAx4gAFIARQBEAE0ATwBOAEQAXAB2AC0AbQBhAGsAbAB1AG0wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKdd4H0zwHIgzpjW/hZ3KT53EYzLC6Wp0kfv1y6T2RC/tahIi+G3YFZxEdZiWmKbntXruvH6PGPAzAvne28twrODZk8dm3dvaRt7ID9ItnD35hjKOq9v0AltAzW/YU2/VtcpqkXsFtdRT2+Ut2fKrreWWEBZGoW7snrDH52MYY8tAgMBAAEwCQYFKw4DAh0FAAOBgQBKaxJ2iBgDhovFhsDDvq6bYbrsfuIirZdwGWb3TT3WzJbyArDK9X1wvJXP7duzb8AtzFjCSMDLLWZg1avkoagdGrfAJKw8shhuxgFH9eDZWCc2Zg4aEmhMUSVuhoMF7vI7KmLkmKYJoH336MIyzd8QRmR0isWb/tRT59W8yDUuRA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

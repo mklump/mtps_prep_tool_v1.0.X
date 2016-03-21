@@ -1,0 +1,934 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MtpsPrepTool</name>
+    </assembly>
+    <members>
+        <member name="T:MtpsPrepTool.ProgressPage">
+            <summary>
+            Implementation for the Progress indicator form
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.ProgressPage.mainFormReference">
+            <summary>
+            Static MainForm reference
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.ProgressPage.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.ProgressPage.btnCancel_Click(System.Object,System.EventArgs)">
+            <summary>
+            btnCancel click event handler
+            </summary>
+            <param name="sender">Source object</param>
+            <param name="e">Arguements included with source object</param>
+        </member>
+        <member name="M:MtpsPrepTool.ProgressPage.ProgressPage_Shown(System.Object,System.EventArgs)">
+            <summary>
+            Form.Shown event handler for ProgressPage.Shown
+            </summary>
+            <param name="sender">Source object</param>
+            <param name="e">Arguements included with source object</param>
+        </member>
+        <member name="F:MtpsPrepTool.ProgressPage.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.ProgressPage.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MtpsPrepTool.ProgressPage.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MtpsPrepTool.ProcessingDrive">
+            <summary>
+            Implementation class for Mounting and Dismounting
+            a temporary processing drive
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.ProcessingDrive.threadMount">
+            <summary>
+            Thread that performs mounting a temporary drive
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.ProcessingDrive.threadDismount">
+            <summary>
+            Thread that performs dismounting a temporary drive
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.ProcessingDrive.driveLetter">
+            <summary>
+            Drive letter used to mount the specific temporary drive
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.ProcessingDrive.originalSourcePath">
+            <summary>
+            Original source path specification before mounting temporary drive
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.ProcessingDrive.#ctor">
+            <summary>
+            ProcessingDrive default constructor: Checks for the first
+            available drive letter and assigns it as the Processing 
+            Temporary Drive
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.ProcessingDrive.ProcessingDriveInit(System.Char)">
+            <summary>
+            Helper method that initializes the assigned Temporary Processing Drive
+            </summary>
+            <param name="driveLetter">Temporary processing drive letter 
+            specification</param>
+        </member>
+        <member name="M:MtpsPrepTool.ProcessingDrive.MountDrive">
+            <summary>
+            Operation/method that calls threadMount to mount
+            a temporary drive letter as a substitute for any
+            short path or extra long (greater than 256 characters)
+            exceptionally long path
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.ProcessingDrive.DismountDrive">
+            <summary>
+            Operation/method that calls threadDismount to dismount
+            a temporary drive letter as a substitute for any
+            short path or extra long (greater than 256 characters)
+            exceptionally long path
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.ProcessingDrive.TSDelegateMountDrive">
+            <summary>
+            ThreadStart void () signature delegate responsible for
+            mounting a temporary processing drive
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.ProcessingDrive.TSDelegateDismountDrive">
+            <summary>
+            ThreadStart void () signature delegate responsible for
+            dismounting a temporary processing drive
+            </summary>
+        </member>
+        <member name="P:MtpsPrepTool.ProcessingDrive.DriveLetter">
+            <summary>
+            Property used to set/get driveLetter specification
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.AboutBox1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.AboutBox1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.AboutBox1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MtpsPrepTool.HtmlmarkupAddins">
+            <summary>
+            HtmlmarkupAddins implementation for publishing date and right side bar html addins.
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.HtmlmarkupAddins.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.HtmlmarkupAddins.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MtpsPrepTool.HtmlmarkupAddins.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.HtmlmarkupAddins.htmlPublishDate">
+            <summary>
+            Html string for insertion to help procuder topic content that will
+            show the Published date.
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.HtmlmarkupAddins.htmlRightContext">
+            <summary>
+            Html string for insertion to help producer topic content that will
+            show the right context navigation bar containing download link.
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.HtmlmarkupAddins.cancelClicked">
+            <summary>
+            Determines if the cancel button was clicked
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.HtmlmarkupAddins.replaceAt">
+            <summary>
+            Specifies what Archive Attributes to replace
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.HtmlmarkupAddins.datePublished">
+            <summary>
+            Actual correctly formated Document Published Date
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.HtmlmarkupAddins.titleCorrect">
+            <summary>
+            Indicates whether the Document Title textbox field is correct or not
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.HtmlmarkupAddins.association">
+            <summary>
+            Topic and Guid counter part association and data file management object.
+            (Knows an object TopicGuidAsso type relationship)
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.HtmlmarkupAddins.#ctor">
+            <summary>
+            HtmlmarkupAddins default constructor
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.HtmlmarkupAddins.txtProcessingArchive_MouseHover(System.Object,System.EventArgs)">
+            <summary>
+            Textbox txtProcessingArchive mouse hover event handler
+            </summary>
+            <param name="sender">Source object</param>
+            <param name="e">Arguements included with source object</param>
+        </member>
+        <member name="M:MtpsPrepTool.HtmlmarkupAddins.txtDownloadLink_MouseHover(System.Object,System.EventArgs)">
+            <summary>
+            Text box DownloadLink mouse hover event handler
+            </summary>
+            <param name="sender">Source object</param>
+            <param name="e">Arguements included with source object</param>
+        </member>
+        <member name="M:MtpsPrepTool.HtmlmarkupAddins.txtDocTitle_MouseHover(System.Object,System.EventArgs)">
+            <summary>
+            Text box DownloadLink mouse hover event handler
+            </summary>
+            <param name="sender">Source object</param>
+            <param name="e">Arguements included with source object</param>
+        </member>
+        <member name="M:MtpsPrepTool.HtmlmarkupAddins.UpdatePublishDate(System.String,System.String)">
+            <summary>
+            Helper method that updates a document/help archive's published date
+            </summary>
+            <param name="htmlFile">Source html file</param>
+            <param name="line">Source html line</param>
+            <returns>The updated publish date html</returns>
+        </member>
+        <member name="M:MtpsPrepTool.HtmlmarkupAddins.ProcessHtml">
+            <summary>
+            Helper method that performs the actual operations for Html feature addins
+            and also Malformed html removal operations.
+            </summary>
+            <returns>0 if all operations succeeded, otherwise -1</returns>
+        </member>
+        <member name="M:MtpsPrepTool.HtmlmarkupAddins.btnOK_Click(System.Object,System.EventArgs)">
+            <summary>
+            SUBMIT button click event handler
+            </summary>
+            <param name="sender">Source object</param>
+            <param name="e">Arguements included with source object</param>
+        </member>
+        <member name="M:MtpsPrepTool.HtmlmarkupAddins.RemoveMalformedHtml">
+            <summary>
+            Helper method that certain unneccessarily inserted SPAN html elements
+            done by help producer.
+            </summary>
+            <returns>A System.Exception object if a PROBLEM occured, otherwise null</returns>
+        </member>
+        <member name="M:MtpsPrepTool.HtmlmarkupAddins.ValidateDocTitleText">
+            <summary>
+            Helper method that validates the text in the txtDocTitle text box
+            </summary>
+            <returns>0 if all the validation is successful, otherwise -1</returns>
+        </member>
+        <member name="M:MtpsPrepTool.HtmlmarkupAddins.btnCancel_Click(System.Object,System.EventArgs)">
+            <summary>
+            btnCancel button click event handler
+            </summary>
+            <param name="sender">Source object</param>
+            <param name="e">Arguements included with source object</param>
+        </member>
+        <member name="M:MtpsPrepTool.HtmlmarkupAddins.ValidateDownloadLink">
+            <summary>
+            Helper method that checks to see if the user is connected to the internet,
+            and if they are, further checks the validity of the document download link
+            by verifying it accross the internet as a System.Net.WebRequest. If no
+            connection is detected, then the document download link is only verified as
+            not having unsupported character.
+            </summary>
+            <returns>0 if all the validation is successful, otherwise -1</returns>
+        </member>
+        <member name="T:MtpsPrepTool.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:MtpsPrepTool.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:MtpsPrepTool.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:MtpsPrepTool.ProgressComplete">
+            <summary>
+            Implementation for ProgressComplete child form
+            </summary>
+            <summary>
+            Implementation for ProgressComplete child form
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.ProgressComplete.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.ProgressComplete.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MtpsPrepTool.ProgressComplete.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.ProgressComplete.SourcePath">
+            <summary>
+            Internal static SourcePath member
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.ProgressComplete.logFile">
+            <summary>
+            Internal static logFile location member
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.ProgressComplete.logSummary">
+            <summary>
+            Log summary control that is later bound to the txtSummary control
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.ProgressComplete.#ctor">
+            <summary>
+            Implementation for Progress Complete status indicator form
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.ProgressComplete.btnViewLog_Click(System.Object,System.EventArgs)">
+            <summary>
+            Button click event handler for opening the log file.
+            </summary>
+            <param name="sender">Source object</param>
+            <param name="e">Arguements included with source object</param>
+        </member>
+        <member name="M:MtpsPrepTool.ProgressComplete.ProgressComplete_Shown(System.Object,System.EventArgs)">
+            <summary>
+            Form.Shown event handler for ProgressComplete.Shown
+            </summary>
+            <param name="sender">Source object</param>
+            <param name="e">Arguements included with source object</param>
+        </member>
+        <member name="T:MtpsPrepTool.MainForm">
+            <summary>
+            The MainForm implementation is found here.
+            Although this winform application tool is compiled for any processor, the core
+            library required for Art/Image processing was compiled only for x86, so the complete
+            tool is best run as a 32 bit applications.
+            </summary>
+            <summary>
+            Implementation class object for ExitEvent custom event type
+            </summary>
+        </member>
+        <member name="T:MtpsPrepTool.iExitEvent">
+            <summary>
+            ExitEvent abstract class
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.iExitEvent.Add_ExitEvent(MtpsPrepTool.CustomExitEvent)">
+            <summary>
+            Add ExitEvent type registeration
+            </summary>
+            <param name="exitevent">ExitEvent delegate</param>
+        </member>
+        <member name="M:MtpsPrepTool.iExitEvent.Remove_ExitEvent(MtpsPrepTool.CustomExitEvent)">
+            <summary>
+            Remove ExitEvent type registeration
+            </summary>
+            <param name="exitevent">ExitEvent delegate</param>
+        </member>
+        <member name="M:MtpsPrepTool.iExitEvent.RaiseExitEvent">
+            <summary>
+            Launch/Raise ExitEvent custom event
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.MainForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.MainForm.logAppended">
+            <summary>
+            Determines if the log file has been appended
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.MainForm.logFile">
+            <summary>
+            Location of the MtpsPrepTool output log file
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.MainForm.association">
+            <summary>
+            Topic and Guid counter part association and data file management object
+            (Knows an object TopicGuidAsso type relationship)
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.MainForm.addins">
+            <summary>
+            Html markup addins implementation object
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.MainForm.imageprocessing">
+            <summary>
+            ImageProcessing implementation object
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.MainForm.processingThread">
+            <summary>
+            Main processing thread
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.MainForm.archiveNumber">
+            <summary>
+            Current archive number for Html Processing
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.MainForm.archiveAttributes">
+            <summary>
+            Private storage for each set of Archive Attributes
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.MainForm.decompile">
+            <summary>
+            Thread responsible for decompiling a given archive
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.MainForm.recompile">
+            <summary>
+            Thread responsible for recompiling a given archive
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.MainForm.progresscomplete">
+            <summary>
+            Progress complete status indicator form object
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.MainForm.HxComp">
+            <summary>
+            Location of the HxComp.exe help archive compiler
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.MainForm.progresspage">
+            <summary>
+            Progress page status indicator form object
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.MainForm.helpArchives">
+            <summary>
+            Help archive absolute paths
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.#ctor">
+            <summary>
+            MainForm default constructor
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.btnBrowse_Click(System.Object,System.EventArgs)">
+            <summary>
+            Browse button click event
+            </summary>
+            <param name="sender">Source object</param>
+            <param name="e">Arguements included with source object</param>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.btnSubmit_EnabledChanged(System.Object,System.EventArgs)">
+            <summary>
+            btnSubmit enabled property changed event handler
+            </summary>
+            <param name="sender">Source object</param>
+            <param name="e">Arguements included with source object</param>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.btnFindArchives_Click(System.Object,System.EventArgs)">
+            <summary>
+            btnFindArchives click event handler
+            </summary>
+            <param name="sender">Source object</param>
+            <param name="e">Arguements included with source object</param>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.btnSetArchiveAttributes_Click(System.Object,System.EventArgs)">
+            <summary>
+            btnSetArchiveAttributes click event handler
+            </summary>
+            <param name="sender">Source object</param>
+            <param name="e">Arguements included with source object</param>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.btnSubmit_Click(System.Object,System.EventArgs)">
+            <summary>
+            btnSubmit button click event
+            </summary>
+            <param name="sender">Source object</param>
+            <param name="e">Arguements included with source object</param>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.LaunchProcessing">
+            <summary>
+            Helper method responsible for launching the main processing thread
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.CallingThreadHandler">
+            <summary>
+            Helper thread that that allows processingThread and MainForm
+            to run undisturbed
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.txtSourceFolder_MouseHover(System.Object,System.EventArgs)">
+            <summary>
+            Displays a tooltip of the selected Source Folder.
+            </summary>
+            <param name="sender">Source object</param>
+            <param name="e">Arguements included with source object</param>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.txtSourceFolder_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            txtSourceFolder text changed event handler
+            </summary>
+            <param name="sender">Source object</param>
+            <param name="e">Arguements included with source object</param>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.btnAbout_Click(System.Object,System.EventArgs)">
+            <summary>
+            Displays the About Box with instructions.
+            </summary>
+            <param name="sender">Source object</param>
+            <param name="e">Arguements included with source object</param>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.btnExit_Click(System.Object,System.EventArgs)">
+            <summary>
+            Exits the main form.
+            </summary>
+            <param name="sender">Source object</param>
+            <param name="e">Arguements included with source object</param>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.IsHelp20SDKInstalled">
+            <summary>
+            Checks for the existance for the Microsoft Help 2.0 SDK, and also ultimately
+            for the required HxComp.exe help archive compiler application.
+            </summary>
+            <returns>True if installed, otherwise false</returns>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.GetHelpArchives(System.String@)">
+            <summary>
+            Searches the help archive source path and returns all of the .hxs help archives
+            </summary>
+            <param name="sourcePath">Source path of the help archives</param>
+            <returns>A list of all the help archive (.HxS) files, otherwise null</returns>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.ThreadDecompiler">
+            <summary>
+            Helper Thread delegate responsible for calling the decompilation process
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.DecompileJoin">
+            <summary>
+            Decompilation ThreadStart delegate
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.DecompileArchive(System.String,System.String)">
+            <summary>
+            Helper method Decompiles the specified Help Archive.
+            </summary>
+            <returns>Decompile error status</returns>
+            <param name="helpArchive">Next specified .HxS Havana help archive for decompiling</param>
+            <param name="sourcePath">Source path of the help archives</param>
+            <returns>Decompilation error status, null for success and an Exception
+            Object for failure</returns>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.ThreadRecompiler">
+            <summary>
+            Helper Thread delegate responsible for calling the recompilation process
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.RecompileJoin">
+            <summary>
+            Recompilation ThreadStart delegate
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.RecompileArchive(System.String,System.String)">
+            <summary>
+            Helper method Recompiles the specified Help Archive.
+            </summary>
+            <param name="helpArchive">Next specified .HxS Havana help archive for recompiling</param>
+            <param name="sourcePath">Source path of the help archives</param>
+            <returns>Recompilation error status, null for success and an
+            Exception object for failure</returns>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.ResetIODirectory(System.String)">
+            <summary>
+            Helper method that "resets" the required Help Archive IO
+            processing directory.
+            </summary>
+            <param name="sourcePath">Source path of the help archives</param>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.WriteLogFile(System.String,System.Windows.Forms.ListBox)">
+            <summary>
+            Write log file to the specified location.
+            </summary>
+            <param name="logFilePath">Location to write out the log file</param>
+            <param name="listBoxOutput">The ListBox control that contains the logs</param>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.InsertGuid(System.Int32,System.String,System.String,System.Collections.ArrayList@,System.String)">
+            <summary>
+            Helper method that inserts GUID line at the specified location.
+            </summary>
+            <param name="insertAt">Insertion location within an HtmlTopic file</param>
+            <param name="line">Line found with leading tab characters</param>
+            <param name="htmlFile">Path to Html Topic file under processing</param>
+            <param name="sourceList">ArrayList for processing the Html Topic file</param>
+            <param name="oldGUID">Specifies the old GUID applied from previous build</param>
+            <returns>The complete XML line containing the new GUID</returns>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.FindLinesForInsert(System.String,System.String)">
+            <summary>
+            Helper method that finds the appropriate line in Html topic file for where the
+            GUID needs to be inserted into each Html topic file's Xml Data island.
+            Added fix: Original GUIDs will be saved with each originally associated Html Topic
+            file and in each .HxS help archive as a separate text file in the same location as
+            each help archive. This will allow the assigning of each original GUID when a given
+            help archive is rebuilt.
+            </summary>
+            <param name="helpArchive">Name of the help archive being processed</param>
+            <param name="sourcePath">Source path of the help archives</param>
+            <returns>0 if inserts succeeded, otherwise -1</returns>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.Init(System.String,System.String[]@)">
+            <summary>
+            Help method that initializes retrieval of the Help 2.0 Archives
+            </summary>
+            <param name="sourcePath">Help 2.0 HxS Archive Folder location</param>
+            <param name="helpArchives">Array of Help 2.0 HxS Archive absolute paths</param>
+            <returns>True if one or more Help 2.0 HxS Archive(s) were found, otherwise False</returns>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.ProcessHelpArchives(System.String)">
+            <summary>
+            Processes the specifed source folder path containing HxS Help Archives
+            by checking for 8-4-4-4-12 GUID inside of each of the Html Help topics
+            within the Xml Data Island and for correct Art/Image formats and size.
+            Please note that the Microsoft Help 2.0 SDK must be installed, and is
+            explicitly checked for otherwise this tool will not succeed.
+            </summary>
+            <param name="sourcePath">Reference to Help Archive (.HxS) location</param>
+        </member>
+        <member name="F:MtpsPrepTool.MainForm.CallRaiseExitEvent">
+            <summary>
+            Static internal reference to call the operation RaiseExitEvent
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.MainForm.exitRaised">
+            <summary>
+            Determines if Exit custom event was raised
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.Add_ExitEvent(MtpsPrepTool.CustomExitEvent)">
+            <summary>
+            Add ExitEvent type registeration
+            </summary>
+            <param name="exitevent">ExitEvent delegate</param>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.Remove_ExitEvent(MtpsPrepTool.CustomExitEvent)">
+            <summary>
+            Remove ExitEvent type registeration
+            </summary>
+            <param name="exitevent">ExitEvent delegate</param>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.RaiseExitEvent">
+            <summary>
+            Raise ExitEvent custom event - Initiates All Threads and Processes to Terminate/Exit
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.CustomExitEvent(System.Object,System.EventArgs)">
+            <summary>
+            ExitEvent custom event handler
+            </summary>
+            <param name="sender">Object sender</param>
+            <param name="e">Included event arguements</param>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.ThreadLinesSafe">
+            <summary>
+            This method is executed on the worker thread and makes
+            thread-safe calls on the progresscomplete.txtSummary control.
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.SetText(System.String[])">
+            <summary>
+            Helper method that provides a thread-safe means of
+            setting the Lines property of multiline TextBox
+            </summary>
+            <param name="status"></param>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.ThreadBoolSafe">
+            <summary>
+            This method is executed on the worker thread and makes
+            a thread-safe call on the btnSubmit control.
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.MainForm.SetEnabled(System.Boolean)">
+            <summary>
+            Helper method that provides a thread-safe means of
+            setting the proverty of btnSubmit.Enabled
+            </summary>
+        </member>
+        <member name="E:MtpsPrepTool.MainForm.ExitEvent">
+            <summary>
+            Custom exit event declaration
+            </summary>
+        </member>
+        <member name="T:MtpsPrepTool.MainForm.RaisingExitEvent">
+            <summary>
+            Internal delegate to call RaiseExitEvent()
+            </summary>
+        </member>
+        <member name="T:MtpsPrepTool.MainForm.SetEnabledCallBack">
+            <summary>
+            This delegate enables asynchronous calls for setting
+            the Enabled property on a button control.
+            </summary>
+            <param name="status">The boolean status of Button.Enabled</param>
+        </member>
+        <member name="T:MtpsPrepTool.MainForm.SetTextBoxLines">
+            <summary>
+            This delegate enables asynchronous calls for setting
+            the Lines property on a multiline TextBox control
+            </summary>
+            <param name="status">The string [] log summary lines</param>
+        </member>
+        <member name="T:MtpsPrepTool.ImageProcessing">
+            <summary>
+            Implements the Art/Image format and size validation
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.ImageProcessing.listBoxOutput">
+            <summary>
+            Logging control/support for ImageProcessing
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.ImageProcessing.logFile">
+            <summary>
+            Location of the MtpsPrepTool output log file.
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.ImageProcessing.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.ImageProcessing.GetImages(System.String)">
+            <summary>
+            Helper method that goes to the help achive\images folder to retrieve
+            a list of all the images contained there.
+            </summary>
+            <param name="sourcePath">Source path of the help archives</param>
+            <returns>An ImageMagick.ImageList collection</returns>
+        </member>
+        <member name="M:MtpsPrepTool.ImageProcessing.CheckArtImageCollection(System.String,System.String)">
+            <summary>
+            Helper method that checks each Art/Image file has correct maximum width
+            and supported MTPS image format.
+            </summary>
+            <param name="helpArchive">Next specified .HxS Havana help archive for Art/Image Checking</param>
+            <param name="sourcePath">Source path of the help archives</param>
+            <returns>CheckArtImageCollertion error status, 0 for success and -1 for failure</returns>
+        </member>
+        <member name="M:MtpsPrepTool.ImageProcessing.UpdateHtmlImageSpec(MagickNet.Image)">
+            <summary>
+            Helper method that updates the source html display specifications for each Art/Image
+            </summary>
+            <param name="image">MagickNet.Image that was proportionally reduced in size</param>
+        </member>
+        <member name="T:MtpsPrepTool.TopicGuidAsso">
+            <summary>
+            Implementation for extended post processing to allow for better
+            data association between document topics and their assigned MTPS
+            AssetID identification data (GUID).
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.TopicGuidAsso.#ctor">
+            <summary>
+            Default constructor for TopicGuidAsso object
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.TopicGuidAsso.titlesToOccurances">
+            <summary>
+            SortedDictionary key/value pair collectin for tracking
+            topic title to occurances in the xml data files.
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.TopicGuidAsso.listBoxOutput">
+            <summary>
+            ListBox MtpsPrepTool.MainFrom.listBoxOutput reference for logging
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.TopicGuidAsso.helpArchive">
+            <summary>
+            Relative help archive path for a given help archive
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.TopicGuidAsso.sourcePath">
+            <summary>
+            Absolute path that MtpsPrepTool is currently pointing
+            at containing help archives for processing.
+            (Can be either a short no-spaces local path, or a mapped network drive)
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.TopicGuidAsso.xmlFile">
+            <summary>
+            DataSet side-by-side data that has topic-GUID association
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.TopicGuidAsso.archiveFile">
+            <summary>
+            DataSet mirror image of xmlFile in the help archive.
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.TopicGuidAsso.WriteXmlFile">
+            <summary>
+            Writes out the topic-GUID associated data file and performs
+            neccessary checking that both xml data file locations are
+            identical and have neccessary file attributes.
+            </summary>
+            <returns>True if checking and write out succeeded, otherwise false</returns>
+        </member>
+        <member name="M:MtpsPrepTool.TopicGuidAsso.RemoveTopicData(System.String,System.String)">
+            <summary>
+            Removes a given Topic with its associated GUID at build time
+            from the topic-GUID association data file. 
+            </summary>
+            <param name="topicTitle">Topic title to remove if in both
+            data file locations, but not more than once in both locations</param>
+            <param name="associatedGUID">Associated GUID to remove in
+            both data file locations, but not more than once in both
+            locations</param>
+            <returns>True if removal succeeded, otherwise false</returns>
+        </member>
+        <member name="M:MtpsPrepTool.TopicGuidAsso.AddTopicData(System.String,System.String)">
+            <summary>
+            Adds a new Topic with its new GUID at runtime time to
+            the topic-GUID association data file.
+            </summary>
+            <param name="topicTitle">Topic title to add</param>
+            <param name="newGUID">New static GUID to add with new Topic</param>
+            <returns>True if the topic data doesn't already exist in either
+            data file (both in the archive and side by side with the archive),
+            otherwise false if either the Topic title or the GUID already
+            appear.</returns>
+        </member>
+        <member name="M:MtpsPrepTool.TopicGuidAsso.SynchronizationCheck">
+            <summary>
+            Helper method responsible for checking that the data in a
+            given help arhive and also side by side with the archive are
+            identical.
+            </summary>
+            <returns>True if identical, otherwise false</returns>
+        </member>
+        <member name="M:MtpsPrepTool.TopicGuidAsso.UpdateXml(System.String)">
+            <summary>
+            Helper method that finds the html topic file's original associated GUID in the xml
+            and reinserts it if topic is unchanged, adds the html topic file with a new GUID if
+            it is a new topic, or deletes the topic and associated GUID from the Xml data files
+            if it is found that a topic was removed after rebuilding from help producer.
+            </summary>
+            <param name="pathHtmlFile">Path to html topic file from help producer rebuild</param>
+            <returns>True if updates succeeded, otherwise false</returns>
+        </member>
+        <member name="M:MtpsPrepTool.TopicGuidAsso.RemoveXmlDuplicates(System.String,System.Data.DataRow[])">
+            <summary>
+            Helper method that removes topics and their associated AssetID GUID from
+            the Xml Data files after having found the corresponding topic was removed
+            from the Help Producing build output .HxS which is input to this tool.
+            </summary>
+            <param name="pathHtmlFile">Path to the last Html Topic File in \TestOutput\html</param>
+            <param name="rows">DataRow array from last select statement in UpdateXml()</param>
+            <returns>Remaining DataRow array set after removal operation</returns>
+        </member>
+        <member name="M:MtpsPrepTool.TopicGuidAsso.ResynchronizeData">
+            <summary>
+            Helper method responsible for rebalancing Xml data files after the
+            data file checks provided by SynchronizationCheck() do not succeed.
+            </summary>
+        </member>
+        <member name="P:MtpsPrepTool.TopicGuidAsso.HelpArchive">
+            <summary>
+            Property HelpArchive (string) - get/set
+            </summary>
+        </member>
+        <member name="P:MtpsPrepTool.TopicGuidAsso.SourcePath">
+            <summary>
+            Property SourcePath (sting) - get/set
+            </summary>
+        </member>
+        <member name="P:MtpsPrepTool.TopicGuidAsso.XmlFile">
+            <summary>
+            Property XmlFile (DataSet) - Set or get the
+            topic-GUID side-by-side association data
+            </summary>
+        </member>
+        <member name="P:MtpsPrepTool.TopicGuidAsso.ArchiveFile">
+            <summary>
+            Property ArchiveFile (DataSet) - get/set mirror image
+            of xmlFile in the help archive
+            </summary>
+        </member>
+        <member name="T:MtpsPrepTool.CustomExitEvent">
+            <summary>
+            ExitEvent delegate
+            </summary>
+        </member>
+    </members>
+</doc>

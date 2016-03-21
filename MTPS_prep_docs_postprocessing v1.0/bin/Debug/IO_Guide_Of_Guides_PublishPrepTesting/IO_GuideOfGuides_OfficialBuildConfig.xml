@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution PIVersion="1.0.0.0" href="http://cis/personal/DocStudio/DocStudioBuild/DocStudioBuild.xsn" name="urn:schemas-microsoft-com:office:infopath:DocStudioBuild:-myXSD-2006-05-25T07-10-24" productVersion="11.0.8034" solutionVersion="1.0.0.1664" ?><?mso-application progid="InfoPath.Document"?><my:DocStudioBuildSetting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-05-25T07:10:24" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xml:lang="en-us">
+	<my:DSDBSettings>
+		<my:GroupName my:envvar="dslGroupName">MXPS</my:GroupName>
+		<my:dslForkName my:envvar="dslForkName">CIS</my:dslForkName>
+		<my:DataBaseName my:envvar="dslDbName">DDCMS_MXPS_CIS</my:DataBaseName>
+		<my:comboBuilds my:envvar="comboBuilds">false</my:comboBuilds>
+		<my:dslServerName my:envvar="dslServerName">CPMSFTSQLAPDS1</my:dslServerName>
+		<my:dslPort my:envvar="dslDsPort"></my:dslPort>
+		<my:BuildStyle my:envvar="BuildStyle">vs2004</my:BuildStyle>
+		<my:mailRecipients my:envvar="dslMailReceipents">%MailTo%</my:mailRecipients>
+		<my:PRODDSTOCDB my:envvar="PRODDSTOCDB">TocImport</my:PRODDSTOCDB>
+		<my:LocVersion my:envvar="LocVersion">1033</my:LocVersion>
+		<my:Slingshot_Server my:envvar="Slingshot_Server">commprod20</my:Slingshot_Server>
+		<my:BuildDropShare my:envvar="BuildDropShare">%srvReleaseShare%\%newBldShare%\DSDrop</my:BuildDropShare>
+		<my:PolicheckLocation my:envvar="PolicheckLocation"></my:PolicheckLocation>
+		<my:TitleAddOn my:envvar="TitleAddOn">Core Infrastructure Solutions :</my:TitleAddOn>
+		<my:Keywords my:envvar="Keywords">CIS,Core Infrastructure Solutions</my:Keywords>
+		<my:BUILDSHARE my:envvar="BUILDSHARE">%srvReleaseShare%\%newBldShare%\DSDrop</my:BUILDSHARE>
+		<my:BUILDREPORTS my:envvar="BUILDREPORTS">http://{someserver}/{somesubfolder}</my:BUILDREPORTS>
+		<my:ReleaseDate xsi:nil="true"></my:ReleaseDate>
+		<my:FILE_TIME_MINUTES my:envvar="FILE_TIME_MINUTES">00:00:00</my:FILE_TIME_MINUTES>
+		<my:BuildDropLocation my:envvar="BUILD_DROP_LOCATION">%srvReleaseShare%\%newBldShare%\DSDrop</my:BuildDropLocation>
+		<my:FILE_DATE my:envvar="FILE_DATE"></my:FILE_DATE>
+		<my:SolutionName my:envvar="SOLUTION_NAME">Core IO Implementer Resource Guide: Basic to Standardized</my:SolutionName>
+	</my:DSDBSettings>
+	<my:Documents>
+		<my:Document my:name="IO_1_Basic_to_St">
+			<my:docName my:envvar="dslDocName">IO_1_Basic_to_St</my:docName>
+			<my:docTeamName my:envvar="dslTeamName">MSIM</my:docTeamName>
+			<my:Archive my:envvar="STEP_ARCHIVE">off</my:Archive>
+			<my:BldReport my:envvar="STEP_BLDREPORT">on</my:BldReport>
+			<my:BuildOutput my:envvar="BUILDOUTPUT">htmlhelp</my:BuildOutput>
+			<my:BuildOutputStyle my:chm="off" my:doc="on" my:mnp="on" my:mnpFormat="1"></my:BuildOutputStyle>
+			<my:CleanUp my:envvar="STEP_CLEANUP">on</my:CleanUp>
+			<my:Compile my:envvar="STEP_COMPILE">off</my:Compile>
+			<my:DdueMlCopy my:envvar="STEP_DDUEMLCOPY">on</my:DdueMlCopy>
+			<my:docFileName my:envvar="OUTPUT_FILENAME">IO Basic to Standardized</my:docFileName>
+			<my:docTitle my:envvar="DOC_TITLE">Core Infrastructure Optimization Implementer Resource Guide: Basic to Standardiz</my:docTitle>
+			<my:DOCTransformations></my:DOCTransformations>
+			<my:DsDoc my:envvar="STEP_DSDOC">on</my:DsDoc>
+			<my:evenPageTitle my:envvar="EVEN_PAGE_TITLE"></my:evenPageTitle>
+			<my:FeedbackAlias my:envvar="CHM_MNP_FEEDBACK_ALIAS">satfdbk@microsoft.com</my:FeedbackAlias>
+			<my:GetForBuild my:envvar="STEP_GETFORBUILD">on</my:GetForBuild>
+			<my:headerOption my:envvar="DOC_HEADER_OPTION">1</my:headerOption>
+			<my:HxcHhpFix my:envvar="STEP_HXCHHPFIX">on</my:HxcHhpFix>
+			<my:LatestDrop my:envvar="STEP_LATESTDROP">off</my:LatestDrop>
+			<my:LinkCheck my:envvar="STEP_LINKCHECK">off</my:LinkCheck>
+			<my:MNPDownloadLink my:envvar="MNP_DOWNLOAD_LINK">on</my:MNPDownloadLink>
+			<my:mnpDwnldLandpage my:envvar="MNP_DOWNLOAD_LANDPAGE">off</my:mnpDwnldLandpage>
+			<my:mnpDwnldUrl>http://go.microsoft.com/fwlink/?LinkId=84248</my:mnpDwnldUrl>
+			<my:mnpFeedbackLink my:envvar="MNP_FDBACK_LINK">on</my:mnpFeedbackLink>
+			<my:mnpFWLink my:envvar="MNP_DOWNLOAD_URLS">"http://go.microsoft.com/fwlink/?LinkId=84248"</my:mnpFWLink>
+			<my:MNPTransformations></my:MNPTransformations>
+			<my:mnpType my:envvar="MNP_OUTPUT_TYPE">Sitelet</my:mnpType>
+			<my:mnpUpdateNotify my:envvar="MNP_UPDATE_NOTIFICATION">on</my:mnpUpdateNotify>
+			<my:NdpPick my:envvar="STEP_NDPPICK">on</my:NdpPick>
+			<my:oddPageTitle my:envvar="ODD_PAGE_TITLE"></my:oddPageTitle>
+			<my:OutputCopy my:envvar="STEP_OUTPUTCOPY">on</my:OutputCopy>
+			<my:Policheck my:envvar="STEP_POLICHECK">off</my:Policheck>
+			<my:PrecompileCmd my:envvar="STEP_PRECOMPILECMD">on</my:PrecompileCmd>
+			<my:RunExternalCmd my:envvar="STEP_RUNEXTERNALCMD">on</my:RunExternalCmd>
+			<my:sectiondepth my:envvar="SECTION_DEPTH">1</my:sectiondepth>
+			<my:SendEmail my:envvar="STEP_SENDEMAIL">on</my:SendEmail>
+			<my:SlingshotEnd my:envvar="STEP_SLINGSHOTEND">off</my:SlingshotEnd>
+			<my:SlingshotStart my:envvar="STEP_SLINGSHOTSTART">off</my:SlingshotStart>
+			<my:StripDA1 my:envvar="STEP_STRIPDA1">on</my:StripDA1>
+			<my:StripDA2 my:envvar="STEP_STRIPDA2">on</my:StripDA2>
+			<my:TechNetSearchExceptionKey my:envvar="TECHNET_SEARCH_EXCEPTION_KEY"></my:TechNetSearchExceptionKey>
+			<my:techNetStage my:envvar="CISSTEP_TECHNETSTAGE">on</my:techNetStage>
+			<my:TechNetStagingPath my:envvar="TECHNET_STAGING_PATH">/technet/solutionaccelerators/io/basic</my:TechNetStagingPath>
+			<my:TimeStamp my:envvar="STEP_TIMESTAMP">on</my:TimeStamp>
+			<my:tocLevels my:envvar="TOC_LEVEL">3</my:tocLevels>
+			<my:Version my:envvar="STEP_VERSION">on</my:Version>
+			<my:VirusCheck my:envvar="STEP_VIRUSCHECK">off</my:VirusCheck>
+			<my:XmlNdpPick my:envvar="STEP_XMLNDPPICK">on</my:XmlNdpPick>
+		</my:Document>
+	<my:Document my:name="IO_2_St_to_RA">
+										<my:docName my:envvar="dslDocName">IO_2_St_to_RA</my:docName>
+										<my:docTeamName my:envvar="dslTeamName">MSIM</my:docTeamName>
+										<my:Archive my:envvar="STEP_ARCHIVE">off</my:Archive>
+										<my:BldReport my:envvar="STEP_BLDREPORT">on</my:BldReport>
+										<my:BuildOutput my:envvar="BUILDOUTPUT">htmlhelp</my:BuildOutput>
+										<my:BuildOutputStyle my:chm="off" my:doc="on" my:mnp="on" my:mnpFormat="1"></my:BuildOutputStyle>
+										<my:CleanUp my:envvar="STEP_CLEANUP">on</my:CleanUp>
+										<my:Compile my:envvar="STEP_COMPILE">off</my:Compile>
+										<my:DdueMlCopy my:envvar="STEP_DDUEMLCOPY">on</my:DdueMlCopy>
+										<my:docFileName my:envvar="OUTPUT_FILENAME">IO Standardized to Rationalized</my:docFileName>
+										<my:docTitle my:envvar="DOC_TITLE">Core Infrastructure Optimization Implementer Resource Guide: Standardized to Rat</my:docTitle>
+										<my:DOCTransformations></my:DOCTransformations>
+										<my:DsDoc my:envvar="STEP_DSDOC">on</my:DsDoc>
+										<my:evenPageTitle my:envvar="EVEN_PAGE_TITLE"></my:evenPageTitle>
+										<my:FeedbackAlias my:envvar="CHM_MNP_FEEDBACK_ALIAS">satfdbk@microsoft.com</my:FeedbackAlias>
+										<my:GetForBuild my:envvar="STEP_GETFORBUILD">on</my:GetForBuild>
+										<my:headerOption my:envvar="DOC_HEADER_OPTION">1</my:headerOption>
+										<my:HxcHhpFix my:envvar="STEP_HXCHHPFIX">on</my:HxcHhpFix>
+										<my:LatestDrop my:envvar="STEP_LATESTDROP">off</my:LatestDrop>
+										<my:LinkCheck my:envvar="STEP_LINKCHECK">off</my:LinkCheck>
+										<my:MNPDownloadLink my:envvar="MNP_DOWNLOAD_LINK">on</my:MNPDownloadLink>
+										<my:mnpDwnldLandpage my:envvar="MNP_DOWNLOAD_LANDPAGE">off</my:mnpDwnldLandpage>
+										<my:mnpDwnldUrl>http://go.microsoft.com/fwlink/?LinkId=88270</my:mnpDwnldUrl>
+										<my:mnpFeedbackLink my:envvar="MNP_FDBACK_LINK">on</my:mnpFeedbackLink>
+										<my:mnpFWLink my:envvar="MNP_DOWNLOAD_URLS">"http://go.microsoft.com/fwlink/?LinkId=88270"</my:mnpFWLink>
+										<my:MNPTransformations></my:MNPTransformations>
+										<my:mnpType my:envvar="MNP_OUTPUT_TYPE">Sitelet</my:mnpType>
+										<my:mnpUpdateNotify my:envvar="MNP_UPDATE_NOTIFICATION">on</my:mnpUpdateNotify>
+										<my:NdpPick my:envvar="STEP_NDPPICK">on</my:NdpPick>
+										<my:oddPageTitle my:envvar="ODD_PAGE_TITLE"></my:oddPageTitle>
+										<my:OutputCopy my:envvar="STEP_OUTPUTCOPY">on</my:OutputCopy>
+										<my:Policheck my:envvar="STEP_POLICHECK">off</my:Policheck>
+										<my:PrecompileCmd my:envvar="STEP_PRECOMPILECMD">on</my:PrecompileCmd>
+										<my:RunExternalCmd my:envvar="STEP_RUNEXTERNALCMD">on</my:RunExternalCmd>
+										<my:sectiondepth my:envvar="SECTION_DEPTH">1</my:sectiondepth>
+										<my:SendEmail my:envvar="STEP_SENDEMAIL">on</my:SendEmail>
+										<my:SlingshotEnd my:envvar="STEP_SLINGSHOTEND">off</my:SlingshotEnd>
+										<my:SlingshotStart my:envvar="STEP_SLINGSHOTSTART">off</my:SlingshotStart>
+										<my:StripDA1 my:envvar="STEP_STRIPDA1">on</my:StripDA1>
+										<my:StripDA2 my:envvar="STEP_STRIPDA2">on</my:StripDA2>
+										<my:TechNetSearchExceptionKey my:envvar="TECHNET_SEARCH_EXCEPTION_KEY"></my:TechNetSearchExceptionKey>
+										<my:techNetStage my:envvar="CISSTEP_TECHNETSTAGE">on</my:techNetStage>
+										<my:TechNetStagingPath my:envvar="TECHNET_STAGING_PATH">/technet/solutionaccelerators/io/standard</my:TechNetStagingPath>
+										<my:TimeStamp my:envvar="STEP_TIMESTAMP">on</my:TimeStamp>
+										<my:tocLevels my:envvar="TOC_LEVEL">3</my:tocLevels>
+										<my:Version my:envvar="STEP_VERSION">on</my:Version>
+										<my:VirusCheck my:envvar="STEP_VIRUSCHECK">off</my:VirusCheck>
+										<my:XmlNdpPick my:envvar="STEP_XMLNDPPICK">on</my:XmlNdpPick>
+									</my:Document><my:Document my:name="IO_3_Ra_to_Dy">
+										<my:docName my:envvar="dslDocName">IO_3_Ra_to_Dy</my:docName>
+										<my:docTeamName my:envvar="dslTeamName">MSIM</my:docTeamName>
+										<my:Archive my:envvar="STEP_ARCHIVE">off</my:Archive>
+										<my:BldReport my:envvar="STEP_BLDREPORT">on</my:BldReport>
+										<my:BuildOutput my:envvar="BUILDOUTPUT">htmlhelp</my:BuildOutput>
+										<my:BuildOutputStyle my:chm="off" my:doc="on" my:mnp="on" my:mnpFormat="1"></my:BuildOutputStyle>
+										<my:CleanUp my:envvar="STEP_CLEANUP">on</my:CleanUp>
+										<my:Compile my:envvar="STEP_COMPILE">off</my:Compile>
+										<my:DdueMlCopy my:envvar="STEP_DDUEMLCOPY">on</my:DdueMlCopy>
+										<my:docFileName my:envvar="OUTPUT_FILENAME">IO Rationalized to Dynamic</my:docFileName>
+										<my:docTitle my:envvar="DOC_TITLE">Core Infrastructure Optimization Implementer Resource Guide: Rationalized to Dyn</my:docTitle>
+										<my:DOCTransformations></my:DOCTransformations>
+										<my:DsDoc my:envvar="STEP_DSDOC">on</my:DsDoc>
+										<my:evenPageTitle my:envvar="EVEN_PAGE_TITLE"></my:evenPageTitle>
+										<my:FeedbackAlias my:envvar="CHM_MNP_FEEDBACK_ALIAS">satfdbk@microsoft.com</my:FeedbackAlias>
+										<my:GetForBuild my:envvar="STEP_GETFORBUILD">on</my:GetForBuild>
+										<my:headerOption my:envvar="DOC_HEADER_OPTION">1</my:headerOption>
+										<my:HxcHhpFix my:envvar="STEP_HXCHHPFIX">on</my:HxcHhpFix>
+										<my:LatestDrop my:envvar="STEP_LATESTDROP">off</my:LatestDrop>
+										<my:LinkCheck my:envvar="STEP_LINKCHECK">off</my:LinkCheck>
+										<my:MNPDownloadLink my:envvar="MNP_DOWNLOAD_LINK">on</my:MNPDownloadLink>
+										<my:mnpDwnldLandpage my:envvar="MNP_DOWNLOAD_LANDPAGE">off</my:mnpDwnldLandpage>
+										<my:mnpDwnldUrl>http://go.microsoft.com/fwlink/?LinkId=93595</my:mnpDwnldUrl>
+										<my:mnpFeedbackLink my:envvar="MNP_FDBACK_LINK">on</my:mnpFeedbackLink>
+										<my:mnpFWLink my:envvar="MNP_DOWNLOAD_URLS">"http://go.microsoft.com/fwlink/?LinkId=93595"</my:mnpFWLink>
+										<my:MNPTransformations></my:MNPTransformations>
+										<my:mnpType my:envvar="MNP_OUTPUT_TYPE">Sitelet</my:mnpType>
+										<my:mnpUpdateNotify my:envvar="MNP_UPDATE_NOTIFICATION">on</my:mnpUpdateNotify>
+										<my:NdpPick my:envvar="STEP_NDPPICK">on</my:NdpPick>
+										<my:oddPageTitle my:envvar="ODD_PAGE_TITLE"></my:oddPageTitle>
+										<my:OutputCopy my:envvar="STEP_OUTPUTCOPY">on</my:OutputCopy>
+										<my:Policheck my:envvar="STEP_POLICHECK">off</my:Policheck>
+										<my:PrecompileCmd my:envvar="STEP_PRECOMPILECMD">on</my:PrecompileCmd>
+										<my:RunExternalCmd my:envvar="STEP_RUNEXTERNALCMD">on</my:RunExternalCmd>
+										<my:sectiondepth my:envvar="SECTION_DEPTH">1</my:sectiondepth>
+										<my:SendEmail my:envvar="STEP_SENDEMAIL">on</my:SendEmail>
+										<my:SlingshotEnd my:envvar="STEP_SLINGSHOTEND">off</my:SlingshotEnd>
+										<my:SlingshotStart my:envvar="STEP_SLINGSHOTSTART">off</my:SlingshotStart>
+										<my:StripDA1 my:envvar="STEP_STRIPDA1">on</my:StripDA1>
+										<my:StripDA2 my:envvar="STEP_STRIPDA2">on</my:StripDA2>
+										<my:TechNetSearchExceptionKey my:envvar="TECHNET_SEARCH_EXCEPTION_KEY"></my:TechNetSearchExceptionKey>
+										<my:techNetStage my:envvar="CISSTEP_TECHNETSTAGE">on</my:techNetStage>
+										<my:TechNetStagingPath my:envvar="TECHNET_STAGING_PATH">/technet/solutionaccelerators/io/rationalized </my:TechNetStagingPath>
+										<my:TimeStamp my:envvar="STEP_TIMESTAMP">on</my:TimeStamp>
+										<my:tocLevels my:envvar="TOC_LEVEL">3</my:tocLevels>
+										<my:Version my:envvar="STEP_VERSION">on</my:Version>
+										<my:VirusCheck my:envvar="STEP_VIRUSCHECK">off</my:VirusCheck>
+										<my:XmlNdpPick my:envvar="STEP_XMLNDPPICK">on</my:XmlNdpPick>
+									</my:Document></my:Documents>
+	<my:chkAdvanced>true</my:chkAdvanced>
+	<my:chkGlobalSettings>true</my:chkGlobalSettings>
+</my:DocStudioBuildSetting>

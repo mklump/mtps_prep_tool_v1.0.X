@@ -1,0 +1,374 @@
+<?xml version="1.0" standalone="yes"?>
+<TopicGuidItems>
+  <xs:schema id="TopicGuidItems" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="TopicGuidItems" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="TopicGuidItem">
+            <xs:complexType>
+              <xs:attribute name="ItemID" type="xs:int" use="required" />
+              <xs:attribute name="topictitle" type="xs:string" />
+              <xs:attribute name="topicguid" type="xs:string" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//TopicGuidItem" />
+        <xs:field xpath="@ItemID" />
+      </xs:unique>
+      <xs:unique name="Constraint2">
+        <xs:selector xpath=".//TopicGuidItem" />
+        <xs:field xpath="@topicguid" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <TopicGuidItem ItemID="1" topictitle="Acceptance Testing" topicguid="bb68f788-f656-4ff2-b796-eda803fbfc9b" />
+  <TopicGuidItem ItemID="2" topictitle="Active Directory" topicguid="767bde51-a55d-4527-948e-5ba3babfa75f" />
+  <TopicGuidItem ItemID="3" topictitle="Additional Resources: Standardized to Rationalized Checklist" topicguid="10720056-e2c0-4864-a2a8-3084a9967363" />
+  <TopicGuidItem ItemID="4" topictitle="Additional Resources: Tools and Technologies" topicguid="3c706b7c-e58c-4b72-8a0c-8dd15b041756" />
+  <TopicGuidItem ItemID="5" topictitle="Advantage of Layered Images" topicguid="9ceb3bb3-f299-4a27-af2f-3a7762186caa" />
+  <TopicGuidItem ItemID="6" topictitle="Aligning SLA, OLA, and UC Commitments" topicguid="7b9ebc3f-beee-41af-aa2a-ccdac941157a" />
+  <TopicGuidItem ItemID="7" topictitle="Application and Operating System Deployment" topicguid="df65bfa8-2512-49fc-85ee-5bab56642b6e" />
+  <TopicGuidItem ItemID="8" topictitle="Application Certification" topicguid="5e96c7ec-52b7-4ad6-85d0-0d67bb01a8f2" />
+  <TopicGuidItem ItemID="9" topictitle="Application Compatibility" topicguid="34225a12-05cf-4ce4-b152-e59bf15b24b0" />
+  <TopicGuidItem ItemID="10" topictitle="Application Management" topicguid="4aa9951f-4383-41e1-81b1-d6c2b059a1c8" />
+  <TopicGuidItem ItemID="11" topictitle="Assessment Summary" topicguid="09e09afc-84e2-4e0f-90de-09dbcb200b82" />
+  <TopicGuidItem ItemID="12" topictitle="Asset Inventory" topicguid="39ac700a-8c03-46da-bef5-df31c82b04f3" />
+  <TopicGuidItem ItemID="13" topictitle="Audience" topicguid="675a889d-9a48-43bc-9f3c-11a25ab82680" />
+  <TopicGuidItem ItemID="14" topictitle="Audience" topicguid="83fa3a3b-a786-4d89-8e99-c5576c640b48" />
+  <TopicGuidItem ItemID="15" topictitle="Audience" topicguid="94950847-9a73-4d33-959e-f2916c1dc6bd" />
+  <TopicGuidItem ItemID="16" topictitle="Audience" topicguid="e74f6b6e-f608-4c13-ac88-c2da61355bfd" />
+  <TopicGuidItem ItemID="17" topictitle="Audience" topicguid="b1d08fd9-6c14-4d69-a654-92eb3ea11302" />
+  <TopicGuidItem ItemID="18" topictitle="Audience" topicguid="538b543a-590b-45fb-83ec-0b3368131227" />
+  <TopicGuidItem ItemID="19" topictitle="Audience" topicguid="2e967c5e-0211-40e7-930c-c013bae3564e" />
+  <TopicGuidItem ItemID="20" topictitle="Audience" topicguid="b5f7ac46-eabf-4b88-9a51-62e5bde9af58" />
+  <TopicGuidItem ItemID="21" topictitle="Audience" topicguid="af5112c1-608f-4aa9-aa84-4dbd35a3c874" />
+  <TopicGuidItem ItemID="22" topictitle="Audience" topicguid="136fdf7a-daff-462d-98a6-a346e17098a3" />
+  <TopicGuidItem ItemID="23" topictitle="Audience" topicguid="948d2985-ae1c-4ef2-99da-52d5d5d11abb" />
+  <TopicGuidItem ItemID="24" topictitle="Audience" topicguid="591255a9-8771-4601-bd03-806f22618ec1" />
+  <TopicGuidItem ItemID="25" topictitle="Audience" topicguid="681c76f0-2fcb-40f7-bbdb-724ea2cd5331" />
+  <TopicGuidItem ItemID="26" topictitle="Audience" topicguid="686ebc1a-2cb9-40fe-81aa-74719fdac0c1" />
+  <TopicGuidItem ItemID="27" topictitle="Audience" topicguid="646c50c9-139c-4d43-932b-57807af64f17" />
+  <TopicGuidItem ItemID="28" topictitle="Audience" topicguid="64015ebb-50a2-4190-990b-68a6b7a23d6d" />
+  <TopicGuidItem ItemID="29" topictitle="Audience" topicguid="f900d612-8f71-4d42-aa72-9d3547e8d64c" />
+  <TopicGuidItem ItemID="30" topictitle="Audience" topicguid="8704b8f7-87f5-4a90-9f50-25009bc46637" />
+  <TopicGuidItem ItemID="31" topictitle="Audience" topicguid="c2966a40-9604-4aeb-921f-950ac369b584" />
+  <TopicGuidItem ItemID="32" topictitle="Audience" topicguid="f23f6cee-b35c-43c4-a979-647736cf0394" />
+  <TopicGuidItem ItemID="33" topictitle="Audience" topicguid="d29e9ac4-87fa-4947-9e9a-c29c87748840" />
+  <TopicGuidItem ItemID="34" topictitle="Audience" topicguid="ab6b8956-fb6f-450f-93b2-f481c498efeb" />
+  <TopicGuidItem ItemID="35" topictitle="Audience" topicguid="fec03d69-aa4f-4a04-9d01-4efb5082b903" />
+  <TopicGuidItem ItemID="36" topictitle="Authentication" topicguid="060d8a26-36dd-49c1-8b9a-ea5d21fa49ca" />
+  <TopicGuidItem ItemID="37" topictitle="Backup Plan" topicguid="34bf7c50-bb41-42ca-a17f-8e23d8bb4fd1" />
+  <TopicGuidItem ItemID="38" topictitle="Batch Architecture" topicguid="a6ae0c3a-eeb3-4396-b4fa-d6140d253970" />
+  <TopicGuidItem ItemID="39" topictitle="Batch Processing" topicguid="09dc4f7b-f82b-490c-8a62-13f310ddd42a" />
+  <TopicGuidItem ItemID="40" topictitle="Capability: Data Protection and Recovery" topicguid="af78b44c-aa7f-429c-b77b-cd1279f021af" />
+  <TopicGuidItem ItemID="41" topictitle="Capability: Data Protection and Recovery" topicguid="c94a2b2a-d921-4d3e-9e17-9157bfc07b1a" />
+  <TopicGuidItem ItemID="42" topictitle="Capability: Desktop, Device and Server Management" topicguid="da333780-300a-4eeb-9429-bdb88916a506" />
+  <TopicGuidItem ItemID="43" topictitle="Capability: Desktop, Device and Server Management" topicguid="6044397d-df8c-47cf-a349-e4f546742ffa" />
+  <TopicGuidItem ItemID="44" topictitle="Capability: Identity and Access Management" topicguid="c0361a2d-4b6b-4796-87ca-ae7dcef98738" />
+  <TopicGuidItem ItemID="45" topictitle="Capability: Identity and Access Management" topicguid="6d30ab2c-b548-4b7d-8c86-636eb9ff80d1" />
+  <TopicGuidItem ItemID="46" topictitle="Capability: Security and ITIL/COBIT-based Management Process" topicguid="f76aa3e0-b9d6-45e0-867e-b09eca8d1736" />
+  <TopicGuidItem ItemID="47" topictitle="Capability: Security and ITIL/COBIT-based Management Process" topicguid="0157ace1-fc6d-4b38-97fc-d17f2cceee7b" />
+  <TopicGuidItem ItemID="48" topictitle="Capability: Security and Networking" topicguid="3d12c04b-f55d-46f3-89b0-9dcc4d1bd582" />
+  <TopicGuidItem ItemID="49" topictitle="Capability: Security and Networking" topicguid="f07fbf91-0731-4305-9e88-b16c56afbf32" />
+  <TopicGuidItem ItemID="50" topictitle="Certificates" topicguid="e53f1836-d2dd-42bc-b83c-4ad3bc793cc7" />
+  <TopicGuidItem ItemID="51" topictitle="Checkpoint: Access to Web Applications Using WAP or HTTP for Mobile Devices" topicguid="cf760fbe-d1ea-4eac-8192-a29ebced9bf1" />
+  <TopicGuidItem ItemID="52" topictitle="Checkpoint: Active Directory and IAS/RADIUS for Wireless Network Authentication and Authorization" topicguid="a877bbb0-d44d-4810-b600-bbe89c278940" />
+  <TopicGuidItem ItemID="53" topictitle="Checkpoint: Automated Operating System Distribution" topicguid="24a96718-89e2-4962-933b-bd653d20792a" />
+  <TopicGuidItem ItemID="54" topictitle="Checkpoint: Automated Tracking of Hardware and Software for Desktops" topicguid="89aed3d5-7729-4463-b3ab-c93d5fb96ed3" />
+  <TopicGuidItem ItemID="55" topictitle="Checkpoint: Backup, Restore, and Defined Recovery Times for Servers" topicguid="cfb8574e-9e4d-4cab-a4e8-5a1035ca0b07" />
+  <TopicGuidItem ItemID="56" topictitle="Checkpoint: Centralized Directory-based Configuration and Security" topicguid="e6134f0c-50d3-4380-9adb-32e287275ed3" />
+  <TopicGuidItem ItemID="57" topictitle="Checkpoint: Centrally Managed Certificate Services" topicguid="22639b48-86df-4b9b-aedf-bb9886328f7b" />
+  <TopicGuidItem ItemID="58" topictitle="Checkpoint: Centrally Managed Data Backup for Branch Offices" topicguid="06a1ab1c-7f30-4ed4-9cf4-f2179fe4896a" />
+  <TopicGuidItem ItemID="59" topictitle="Checkpoint: Compatibility Testing and Certification of Software Distribution" topicguid="8ec78c75-1485-4ba4-bf8d-ed9d060b9017" />
+  <TopicGuidItem ItemID="60" topictitle="Checkpoint: Guaranteed Secure Communications with Mobile Devices" topicguid="5de6944a-fd4b-407a-92ad-f5f227741232" />
+  <TopicGuidItem ItemID="61" topictitle="Checkpoint: Latest Two OS Versions and Service Packs on Desktops" topicguid="6295782b-972f-4032-8327-a99aa167b871" />
+  <TopicGuidItem ItemID="62" topictitle="Checkpoint: Latest Versions of Microsoft Office on Desktops" topicguid="e3d7b560-90d8-46d4-adf8-2307bc9f2599" />
+  <TopicGuidItem ItemID="63" topictitle="Checkpoint: Layered Imaging for Desktops" topicguid="4356c768-7a5e-4492-b811-fc1918405a6e" />
+  <TopicGuidItem ItemID="64" topictitle="Checkpoint: Operating, Optimizing, and Change Processes" topicguid="cb68ba1d-7dd5-497e-b661-cd924df2e5cb" />
+  <TopicGuidItem ItemID="65" topictitle="Checkpoint: Patch Management for Servers" topicguid="34216601-a0b5-45dc-96fd-ffe0de1c38d1" />
+  <TopicGuidItem ItemID="66" topictitle="Checkpoint: Policy-managed Firewalls on Servers and Desktops" topicguid="5818c2bb-a66d-4790-afa6-8088505f7706" />
+  <TopicGuidItem ItemID="67" topictitle="Checkpoint: Proactively Managed Bandwidth to Branch Offices" topicguid="b17bfa59-bf2e-459a-8e57-8be5289d17a5" />
+  <TopicGuidItem ItemID="68" topictitle="Checkpoint: Secure Communication Mechanism for Presence" topicguid="caafac3c-19b1-48b8-b5b0-c82a3fb69567" />
+  <TopicGuidItem ItemID="69" topictitle="Checkpoint: Secured and Guaranteed Communication Verification Between Servers" topicguid="e5fa5b22-abf7-4812-bb7e-a69602dc26e2" />
+  <TopicGuidItem ItemID="70" topictitle="Checkpoint: Secure Remote Access to Internal Resources and LOB Applications" topicguid="00573657-8b21-44a6-a28e-38f20d8bebbf" />
+  <TopicGuidItem ItemID="71" topictitle="Checkpoint: Server Consolidation and Virtualization" topicguid="a2ddab62-d2bd-42e8-b251-62eacae57964" />
+  <TopicGuidItem ItemID="72" topictitle="Checkpoint: Service Level Agreement Monitoring and Reporting for Servers" topicguid="559b55b1-a1fe-489b-931d-10a3b9865d28" />
+  <TopicGuidItem ItemID="73" topictitle="Checkpoint: Two-Factor User Authentication, Standard Security Review for New Software Acquisitions, and Data Classification Processes" topicguid="2a9fc7f8-b189-492c-920f-df78ddf15186" />
+  <TopicGuidItem ItemID="74" topictitle="Choosing the Appropriate Mix" topicguid="da40a471-d8e1-4d93-b671-f9962faa9031" />
+  <TopicGuidItem ItemID="75" topictitle="Common Compatibility Problems" topicguid="ebeeca28-9f44-4cf0-9cde-c7576bbac8e8" />
+  <TopicGuidItem ItemID="76" topictitle="Compatibility Analysis and Mitigation" topicguid="89ae1d92-7adc-4849-b70c-6677f71f31b9" />
+  <TopicGuidItem ItemID="77" topictitle="Compatibility Evaluators" topicguid="15fbbd2b-e6cc-4e59-a4fb-c8c02f16dd04" />
+  <TopicGuidItem ItemID="78" topictitle="Computer Imaging System" topicguid="43f1e923-fc7f-457e-b538-9287b432eae5" />
+  <TopicGuidItem ItemID="79" topictitle="Configuration Monitoring Tools" topicguid="66f2ff0d-c927-4c74-88bd-a9f835a34d22" />
+  <TopicGuidItem ItemID="80" topictitle="Core Infrastructure Optimization Capabilities" topicguid="50060ca2-9366-4eed-81bf-bf4778af9e56" />
+  <TopicGuidItem ItemID="81" topictitle="Core Infrastructure Optimization Capability Overview" topicguid="2bc01831-3959-4d80-9f3b-2e5e3cf3a9c5" />
+  <TopicGuidItem ItemID="82" topictitle="Core Infrastructure Optimization Implementer Resource Guide: Standardized to Rationalized" topicguid="a68ca709-b035-4a15-ac05-f4fb55b15c10" />
+  <TopicGuidItem ItemID="83" topictitle="Core Infrastructure Optimization Model Levels" topicguid="7fc302a3-f81b-4bcd-9f70-6a56d6195ff1" />
+  <TopicGuidItem ItemID="84" topictitle="Creating a Service Catalog" topicguid="8365ebe2-68b2-426a-94c0-76fba84dcfa8" />
+  <TopicGuidItem ItemID="85" topictitle="Creation of Logical and Physical Designs" topicguid="f6e3725b-1752-4bf4-8252-fb8d0b321b3d" />
+  <TopicGuidItem ItemID="86" topictitle="Data Backup and Restore Considerations" topicguid="5f271056-48b1-4645-b115-d32700948cd5" />
+  <TopicGuidItem ItemID="87" topictitle="Data Classification Processes" topicguid="7ed3a59c-d325-44b6-a31b-a33535b66af2" />
+  <TopicGuidItem ItemID="88" topictitle="Data Protection and Recovery" topicguid="843757f9-8710-4a4e-aeac-c2eb3f20c08e" />
+  <TopicGuidItem ItemID="89" topictitle="Data Replication" topicguid="8b8bfb18-daaa-45c1-8cd4-02cb18a23ae5" />
+  <TopicGuidItem ItemID="90" topictitle="Deployment Planning" topicguid="890f9fe2-e24c-44aa-aecb-deb5defe63bf" />
+  <TopicGuidItem ItemID="91" topictitle="Desktop, Device and Server Management" topicguid="5069e289-2bef-4f88-9bc5-c6c072e66052" />
+  <TopicGuidItem ItemID="92" topictitle="Determining the Appropriate Office Versions for Your Users" topicguid="24ac6eeb-4cb3-406c-b18a-53e4719834ee" />
+  <TopicGuidItem ItemID="93" topictitle="Developing Service Level Agreements (SLAs)" topicguid="248c8301-d24a-4c2e-accd-a968bd28927c" />
+  <TopicGuidItem ItemID="94" topictitle="Development of Strategies for Consolidation Through Virtualization" topicguid="0e8078ec-695c-4c24-afcf-542bb7ef4f79" />
+  <TopicGuidItem ItemID="95" topictitle="Distributed File System" topicguid="34e4212a-1480-490b-abac-0221ec1ef883" />
+  <TopicGuidItem ItemID="96" topictitle="Documentation and Training" topicguid="15952f86-e962-4fc5-bd95-d85adbb8b6cd" />
+  <TopicGuidItem ItemID="97" topictitle="Documenting Network Design" topicguid="02b9e469-b110-4ace-83e7-0affe18a74bc" />
+  <TopicGuidItem ItemID="98" topictitle="Documenting WAN Links" topicguid="10b75cef-a040-43ca-890b-d0e56b4628c3" />
+  <TopicGuidItem ItemID="99" topictitle="Enforcing Group Policy Settings (2007 Office System)" topicguid="95ecffc3-9329-4ac6-8967-70b70af7de51" />
+  <TopicGuidItem ItemID="100" topictitle="Establishing Service Level Baselines" topicguid="83a51e15-ee3d-417b-a52e-1578a5588598" />
+  <TopicGuidItem ItemID="101" topictitle="Evaluating and Planning Summary" topicguid="f895bd4b-c546-46c7-9b32-12b690ddbb85" />
+  <TopicGuidItem ItemID="102" topictitle="Evaluating and Planning Summary" topicguid="bca436f3-949c-478d-914c-35e7d0425217" />
+  <TopicGuidItem ItemID="103" topictitle="Evaluating Internet Protocol Security" topicguid="313b2882-cfab-4c02-b705-3df5b56fb8dd" />
+  <TopicGuidItem ItemID="104" topictitle="Evaluating the Physical Server Design" topicguid="b59e72b5-7edf-43cd-9085-23391f470845" />
+  <TopicGuidItem ItemID="105" topictitle="Evaluation and Planning Summary" topicguid="12ecbdb9-4d6a-4c42-a7d7-26fd1eee8deb" />
+  <TopicGuidItem ItemID="106" topictitle="Extensible Authentication Protocol (EAP)" topicguid="49972fd9-3ce9-4592-ac53-da8a6f50acc0" />
+  <TopicGuidItem ItemID="107" topictitle="Further Information" topicguid="54dba215-8a28-4a4e-a722-ca71ff70b007" />
+  <TopicGuidItem ItemID="108" topictitle="Further Information" topicguid="e5d5f921-3c1d-488b-881e-35e4c799345c" />
+  <TopicGuidItem ItemID="109" topictitle="Further Information" topicguid="a0890d75-87a9-4123-9a7c-0b1f97dcb061" />
+  <TopicGuidItem ItemID="110" topictitle="Further Information" topicguid="503e1efe-8602-42a3-91ee-9b6fc5d73c80" />
+  <TopicGuidItem ItemID="111" topictitle="Further Information" topicguid="9209a291-032c-4e8f-ab91-f5727957b4e9" />
+  <TopicGuidItem ItemID="112" topictitle="Further Information" topicguid="3b5235e1-f286-406a-a77f-952cf5e07a74" />
+  <TopicGuidItem ItemID="113" topictitle="Further Information" topicguid="17e5dafc-8990-4127-a1cc-a4f309a03491" />
+  <TopicGuidItem ItemID="114" topictitle="Further Information" topicguid="c91f2c43-0bd2-4700-a9bd-fda614c85e5e" />
+  <TopicGuidItem ItemID="115" topictitle="Further Information" topicguid="18a191d6-c536-444d-8260-7df731ded9a7" />
+  <TopicGuidItem ItemID="116" topictitle="Further Information" topicguid="33eff00b-bb72-45cc-b153-115a9154d089" />
+  <TopicGuidItem ItemID="117" topictitle="Further Information" topicguid="201a0a27-c05c-43ed-8f5e-ae7339aabf0e" />
+  <TopicGuidItem ItemID="118" topictitle="Further Information" topicguid="98893332-dd74-4ce6-9848-bc6fe275b0cb" />
+  <TopicGuidItem ItemID="119" topictitle="Further Information" topicguid="10ec2112-5fee-4d68-94c6-d9fc8904e458" />
+  <TopicGuidItem ItemID="120" topictitle="Further Information" topicguid="0dad4bd2-56f3-40a4-bdaa-ca2f1cfccb2d" />
+  <TopicGuidItem ItemID="121" topictitle="Further Information" topicguid="08656fa1-579f-4930-8c5b-f03ccca7d2b2" />
+  <TopicGuidItem ItemID="122" topictitle="Further Information" topicguid="a99f6a5a-e30e-411e-b50e-d1ee9cbf6ed4" />
+  <TopicGuidItem ItemID="123" topictitle="Further Information" topicguid="5e5ec988-6eec-4d76-be1b-de2dce1c9728" />
+  <TopicGuidItem ItemID="124" topictitle="Further Information" topicguid="9d202d9e-6936-4bda-b0f8-5c534ff2d435" />
+  <TopicGuidItem ItemID="125" topictitle="Further Information" topicguid="a7e87e00-fd10-45e5-a1f8-67da96afc599" />
+  <TopicGuidItem ItemID="126" topictitle="Further Information" topicguid="865cb8b7-44c4-44b5-b6d4-d38c483a9896" />
+  <TopicGuidItem ItemID="127" topictitle="Further Information" topicguid="5d339103-3be9-43bc-8301-162a34dcf365" />
+  <TopicGuidItem ItemID="128" topictitle="Further Information" topicguid="176a2958-8fb3-4214-820f-ed15faf3c52c" />
+  <TopicGuidItem ItemID="129" topictitle="Further Information" topicguid="8413ea56-4ddf-4f0a-9df6-fc95243a463b" />
+  <TopicGuidItem ItemID="130" topictitle="Getting Host-based Firewalls on Desktops and Servers" topicguid="70ae6471-95d8-4c46-9891-fef3f06d9a0f" />
+  <TopicGuidItem ItemID="131" topictitle="Group Policy and Active Directory" topicguid="bc5300f2-17d4-4d7f-bb0b-ae2a95d61cdf" />
+  <TopicGuidItem ItemID="132" topictitle="Group Policy in Windows Server" topicguid="013460f9-b5c8-498c-86b4-60d3f8521192" />
+  <TopicGuidItem ItemID="133" topictitle="Hardware Independence" topicguid="57e82ef0-041f-4c64-b5bd-01cb83a60b16" />
+  <TopicGuidItem ItemID="134" topictitle="Identify Phase Summary" topicguid="10673c78-b5ef-4590-a640-952628bbaac6" />
+  <TopicGuidItem ItemID="135" topictitle="Identity and Access Management" topicguid="7452661a-d872-4a18-8b5a-872e5c0e800c" />
+  <TopicGuidItem ItemID="136" topictitle="Implementation Services" topicguid="6dfabdc1-34ba-4bf1-a5eb-ce507c1c8b6f" />
+  <TopicGuidItem ItemID="137" topictitle="Implementing the Centralized Administration Model" topicguid="d829517b-81a4-4cce-86ad-fc0cbc7ed48e" />
+  <TopicGuidItem ItemID="138" topictitle="Implementing the Centralized/Delegated Administration Model" topicguid="09945fb7-d308-4807-8fa6-caff80bee83b" />
+  <TopicGuidItem ItemID="139" topictitle="Implementing the Centralized/Remote Administration Model" topicguid="8843dd59-cdfe-4118-ae2e-cfc44b12015c" />
+  <TopicGuidItem ItemID="140" topictitle="Implementing the Distributed Administration Model" topicguid="c21fdb62-ced8-4d4b-a35f-ebdb8d4f0137" />
+  <TopicGuidItem ItemID="141" topictitle="Implementing the Distributed Administration of Centralized Data Centers Model" topicguid="fb3b7a55-945e-482c-a76f-27d8f2710e3c" />
+  <TopicGuidItem ItemID="142" topictitle="Infrastructure Optimization Concept" topicguid="7105cf6c-e05b-458f-95d2-d6dab93fa813" />
+  <TopicGuidItem ItemID="143" topictitle="Infrastructure Reduction" topicguid="7d650ffa-2740-41c9-a86b-30085526b4ff" />
+  <TopicGuidItem ItemID="144" topictitle="Infrastructure Remediation" topicguid="2cacfac7-29c0-41d5-9d37-ab2a71bdbc16" />
+  <TopicGuidItem ItemID="145" topictitle="Internet Access" topicguid="7512188d-de8b-44db-a5cc-8f52cd771d9d" />
+  <TopicGuidItem ItemID="146" topictitle="Internet Authentication Service (IAS)" topicguid="d9abc22a-4d9a-41af-bd78-0aa976b9b198" />
+  <TopicGuidItem ItemID="147" topictitle="Introduction" topicguid="731fb526-bfb4-4b80-8b20-d1668c088ef7" />
+  <TopicGuidItem ItemID="148" topictitle="Introduction" topicguid="5b3909c8-0bfa-41b5-b97a-29e2d50b2bc8" />
+  <TopicGuidItem ItemID="149" topictitle="Introduction" topicguid="d3d36acb-0ef8-4d0e-a104-21bec3f2e13d" />
+  <TopicGuidItem ItemID="150" topictitle="Introduction" topicguid="5465b60d-43a0-43d6-983a-33d39bd273d1" />
+  <TopicGuidItem ItemID="151" topictitle="Introduction" topicguid="6e70b807-7e41-418d-b38b-b4aac2c135be" />
+  <TopicGuidItem ItemID="152" topictitle="Introduction" topicguid="5e3d2423-f56b-45dc-94fe-2045eed9fe10" />
+  <TopicGuidItem ItemID="153" topictitle="Inventory and Collect Data" topicguid="1de43e36-27e4-431d-8e6c-b09985f4bff8" />
+  <TopicGuidItem ItemID="154" topictitle="IT and Security Process" topicguid="caed2d0e-3929-4042-a844-520cc933d3c6" />
+  <TopicGuidItem ItemID="155" topictitle="Job Scheduling" topicguid="7c500db1-9461-4c56-b47e-f7f46247bd8b" />
+  <TopicGuidItem ItemID="156" topictitle="Job Scheduling Activities" topicguid="9eddbe72-6d67-4704-97d9-b3403896c31a" />
+  <TopicGuidItem ItemID="157" topictitle="Layered Images" topicguid="13bb3d1d-f5cf-4003-8b6b-3a88cc9434d4" />
+  <TopicGuidItem ItemID="158" topictitle="Live Communications Server" topicguid="cb24a18d-8107-4f1b-aa60-62e94022f929" />
+  <TopicGuidItem ItemID="159" topictitle="Local Backup Policies and Guidelines" topicguid="3a4379d7-5da8-4c23-8503-930cce1f7387" />
+  <TopicGuidItem ItemID="160" topictitle="Maintaining a Network" topicguid="5cf9700d-1839-4a26-b1b8-a1716062b482" />
+  <TopicGuidItem ItemID="161" topictitle="Monitoring Software" topicguid="97230dcd-9484-4ff1-bac5-87b8a116b175" />
+  <TopicGuidItem ItemID="162" topictitle="Network Administration" topicguid="22fb6084-442f-42b3-8555-8742d09b90f8" />
+  <TopicGuidItem ItemID="163" topictitle="Network Segmentation in the Branch Office" topicguid="90562396-9ce4-4677-a463-7aed4f58f727" />
+  <TopicGuidItem ItemID="164" topictitle="Office Communicator 2005 and Office Communicator 2007" topicguid="035bba6d-2b1f-4de1-8c7e-e806df050656" />
+  <TopicGuidItem ItemID="165" topictitle="Office Outlook 2007" topicguid="3ad79985-8343-4f0b-b20b-79821c2ffea7" />
+  <TopicGuidItem ItemID="166" topictitle="Office SharePoint Server 2007" topicguid="f6cc37ef-f823-4ed9-a9b7-0bf9a18b7119" />
+  <TopicGuidItem ItemID="167" topictitle="Operations" topicguid="b5ad866b-374c-4815-b6ad-72761ffe170b" />
+  <TopicGuidItem ItemID="168" topictitle="Operations Management Planning" topicguid="46755300-ba2f-4efc-a434-6bc9fd814cba" />
+  <TopicGuidItem ItemID="169" topictitle="Operations" topicguid="e0ffd0f4-968c-4457-97ad-180857bf3db3" />
+  <TopicGuidItem ItemID="170" topictitle="Optimization Level 1: Basic" topicguid="958714b5-254c-4462-b804-2fe9b96412a4" />
+  <TopicGuidItem ItemID="171" topictitle="Optimization Level 2: Standardized" topicguid="90966f12-1d93-4dae-99be-897513064788" />
+  <TopicGuidItem ItemID="172" topictitle="Optimization Level 3: Rationalized" topicguid="e296a0c0-eb49-4c26-90ab-596e3e2feb80" />
+  <TopicGuidItem ItemID="173" topictitle="Optimization Level 4: Dynamic" topicguid="0cd156da-48c8-4cf4-aceb-c18b000e6697" />
+  <TopicGuidItem ItemID="174" topictitle="Other Network Design Considerations" topicguid="fe58b4a8-a9e6-4162-927a-c0f9ae8fb94b" />
+  <TopicGuidItem ItemID="175" topictitle="Overview" topicguid="b3c76bee-81a3-48b3-b984-15bb9d3662ce" />
+  <TopicGuidItem ItemID="176" topictitle="Overview" topicguid="13048b82-8d69-443c-8d5d-5c3c5d7a6bb9" />
+  <TopicGuidItem ItemID="177" topictitle="Overview" topicguid="beab01e7-bcfe-44d5-92ae-efbfd969cfae" />
+  <TopicGuidItem ItemID="178" topictitle="Overview" topicguid="4ef57611-9d63-4df7-9cee-79f42793aa47" />
+  <TopicGuidItem ItemID="179" topictitle="Overview" topicguid="6e18fb60-8f82-4075-82fa-b16a6a5090e1" />
+  <TopicGuidItem ItemID="180" topictitle="Overview" topicguid="ef2ce44a-ca1f-4876-b506-22c347e87e4e" />
+  <TopicGuidItem ItemID="181" topictitle="Overview" topicguid="c58a3543-0aa9-4814-b856-f650ea2a9a8c" />
+  <TopicGuidItem ItemID="182" topictitle="Overview" topicguid="d470d83e-6a19-4576-9333-ff8a70261634" />
+  <TopicGuidItem ItemID="183" topictitle="Overview" topicguid="f641956d-713f-4471-89d3-d5dc53281ef2" />
+  <TopicGuidItem ItemID="184" topictitle="Overview" topicguid="38894ee6-d7dd-455a-9015-fed9348ab39f" />
+  <TopicGuidItem ItemID="185" topictitle="Overview" topicguid="22c7c635-22ad-4b61-a393-0ba3d255fb9c" />
+  <TopicGuidItem ItemID="186" topictitle="Overview" topicguid="2885761a-9c4e-43b8-b69e-a0ef4d746ad2" />
+  <TopicGuidItem ItemID="187" topictitle="Overview" topicguid="824b9059-8a79-4036-8c0b-c94ccaae9de0" />
+  <TopicGuidItem ItemID="188" topictitle="Overview" topicguid="42bc9b5a-1474-4a02-ad32-92bc5c0e1c43" />
+  <TopicGuidItem ItemID="189" topictitle="Overview" topicguid="42fbfb92-864f-457c-b4cf-14d96034a334" />
+  <TopicGuidItem ItemID="190" topictitle="Overview" topicguid="4139e3a0-e74b-48d6-9d2b-a703891022c6" />
+  <TopicGuidItem ItemID="191" topictitle="Overview" topicguid="624c7aa1-a582-47e1-8463-2c399664a18c" />
+  <TopicGuidItem ItemID="192" topictitle="Overview" topicguid="49394b6c-98f9-4a3f-b5f8-df81fcd970a3" />
+  <TopicGuidItem ItemID="193" topictitle="Overview" topicguid="75a27512-a05f-4f5f-a598-2740daf9b1c3" />
+  <TopicGuidItem ItemID="194" topictitle="Overview" topicguid="e0746620-c398-41d7-b363-093471325f4b" />
+  <TopicGuidItem ItemID="195" topictitle="Overview" topicguid="a1f7e306-7f41-437e-911b-0e2043db189c" />
+  <TopicGuidItem ItemID="196" topictitle="Overview" topicguid="cd4d3333-b733-4545-a8d0-07e820230010" />
+  <TopicGuidItem ItemID="197" topictitle="Overview" topicguid="6ffd26d9-79f5-4283-b3e9-ccf4771ddebe" />
+  <TopicGuidItem ItemID="198" topictitle="Phase 1: Assess" topicguid="33197b71-2279-4b1d-8b6f-1a486f561b71" />
+  <TopicGuidItem ItemID="199" topictitle="Phase 1: Assess" topicguid="16b1e6ca-adb0-444b-aa3e-7ab37f18f600" />
+  <TopicGuidItem ItemID="200" topictitle="Phase 1: Assess" topicguid="3a3db051-5086-4073-a298-816fe83e40bf" />
+  <TopicGuidItem ItemID="201" topictitle="Phase 1: Assess" topicguid="4b087669-31d8-4b58-9f85-f65a5692e96d" />
+  <TopicGuidItem ItemID="202" topictitle="Phase 1: Assess" topicguid="0215fffe-980b-470d-9e4d-2bb314f05e39" />
+  <TopicGuidItem ItemID="203" topictitle="Phase 1: Assess" topicguid="621b373f-ec1f-4dcd-b1a1-1067159a4c01" />
+  <TopicGuidItem ItemID="204" topictitle="Phase 1: Assess" topicguid="7449c2ce-3a2e-4426-aca0-52cb6566b560" />
+  <TopicGuidItem ItemID="205" topictitle="Phase 1: Assess" topicguid="8a9278ff-2b83-4fb1-a30e-349c63f01420" />
+  <TopicGuidItem ItemID="206" topictitle="Phase 1: Assess" topicguid="8b641e34-b554-41ae-b84c-94ddd91e9ce7" />
+  <TopicGuidItem ItemID="207" topictitle="Phase 1: Assess" topicguid="ec623abf-83a9-4882-841d-8ce947d67539" />
+  <TopicGuidItem ItemID="208" topictitle="Phase 1: Assess" topicguid="f8c7d868-29bc-421d-882f-ad79e389e5ff" />
+  <TopicGuidItem ItemID="209" topictitle="Phase 1: Assess" topicguid="0477fd09-5004-493a-b77a-c3ff7f269d6b" />
+  <TopicGuidItem ItemID="210" topictitle="Phase 1: Assess" topicguid="d7dac6ff-663f-435b-a78a-362017f300ca" />
+  <TopicGuidItem ItemID="211" topictitle="Phase 1: Assess" topicguid="f8dfce41-e211-4fd0-888e-ae9226cd7466" />
+  <TopicGuidItem ItemID="212" topictitle="Phase 1: Assess" topicguid="4e21a9a0-8c8a-4aac-b22f-5b0c2bf4ce33" />
+  <TopicGuidItem ItemID="213" topictitle="Phase 1: Assess" topicguid="41657dba-4a68-489e-837f-3f2939697923" />
+  <TopicGuidItem ItemID="214" topictitle="Phase 1: Assess" topicguid="044ccc3f-945b-49f6-afb4-9d7de8026e54" />
+  <TopicGuidItem ItemID="215" topictitle="Phase 1: Assess" topicguid="7c7e0dbc-0f47-4439-ab8a-c7027108dcd7" />
+  <TopicGuidItem ItemID="216" topictitle="Phase 1: Assess" topicguid="7e3a2afe-d4ec-4b76-8122-6d25fd19a60b" />
+  <TopicGuidItem ItemID="217" topictitle="Phase 1: Assess" topicguid="a0a6d36b-0155-4d4b-98ce-ac854dc7b63d" />
+  <TopicGuidItem ItemID="218" topictitle="Phase 1: Assess" topicguid="76a9da9e-d445-4c9f-968c-18cc7da75ee3" />
+  <TopicGuidItem ItemID="219" topictitle="Phase 2: Identify" topicguid="6a471553-e9bf-473d-baf1-1447a4be99ff" />
+  <TopicGuidItem ItemID="220" topictitle="Phase 2: Identify" topicguid="5517fb8c-4405-4314-a769-d2f5498adddd" />
+  <TopicGuidItem ItemID="221" topictitle="Phase 2: Identify" topicguid="5a5606ab-7d09-4139-845b-b3bde787c4f4" />
+  <TopicGuidItem ItemID="222" topictitle="Phase 2: Identify" topicguid="6a554b66-c131-4a3a-aafc-e9987eaf3a6e" />
+  <TopicGuidItem ItemID="223" topictitle="Phase 2: Identify" topicguid="a381c4bb-e062-4fe1-acf6-d3fc95b53b82" />
+  <TopicGuidItem ItemID="224" topictitle="Phase 2: Identify" topicguid="540f55d2-771b-43ef-b589-15c3148c9468" />
+  <TopicGuidItem ItemID="225" topictitle="Phase 2: Identify" topicguid="844583b2-aa79-4666-b0d7-64699f49a2be" />
+  <TopicGuidItem ItemID="226" topictitle="Phase 2: Identify" topicguid="491f534c-b596-4519-a478-b5e8d3c0b5e0" />
+  <TopicGuidItem ItemID="227" topictitle="Phase 2: Identify" topicguid="9fc944d6-66d2-4541-995a-fe1768edd256" />
+  <TopicGuidItem ItemID="228" topictitle="Phase 2: Identify" topicguid="8e80074d-4b2c-4750-a367-99f821be2252" />
+  <TopicGuidItem ItemID="229" topictitle="Phase 2: Identify" topicguid="9eb262c7-2fd2-4b0c-8c35-fb676d25f83e" />
+  <TopicGuidItem ItemID="230" topictitle="Phase 2: Identify" topicguid="69d35857-f21f-4fe8-b15c-93ad0e5f50f9" />
+  <TopicGuidItem ItemID="231" topictitle="Phase 2: Identify" topicguid="04dc7e71-0247-406c-9b9a-da7de5728981" />
+  <TopicGuidItem ItemID="232" topictitle="Phase 2: Identify" topicguid="3beacc8d-cd10-4ccf-9469-5fcf358760f0" />
+  <TopicGuidItem ItemID="233" topictitle="Phase 2: Identify" topicguid="505cffb8-424d-44af-8804-2a1b52bdc364" />
+  <TopicGuidItem ItemID="234" topictitle="Phase 2: Identify" topicguid="a8c6e13f-d7c0-4c90-bbb5-d71e1f07c1be" />
+  <TopicGuidItem ItemID="235" topictitle="Phase 2: Identify" topicguid="6e3177e7-482f-49e9-9dff-fbfc6dd39742" />
+  <TopicGuidItem ItemID="236" topictitle="Phase 2: Identify" topicguid="3bb9ca35-d46a-4938-b611-1d88172e43e7" />
+  <TopicGuidItem ItemID="237" topictitle="Phase 2: Identify" topicguid="960746b2-7764-4ac1-9369-fd6b08bb0352" />
+  <TopicGuidItem ItemID="238" topictitle="Phase 2: Identify" topicguid="f78da8df-bf48-44cf-a921-13233125270b" />
+  <TopicGuidItem ItemID="239" topictitle="Phase 2: Identify" topicguid="562a06d3-9b61-489a-8575-63d5692102a7" />
+  <TopicGuidItem ItemID="240" topictitle="Phase 2: Identify" topicguid="a752fd4e-9553-44d5-9b79-64a5905607e6" />
+  <TopicGuidItem ItemID="241" topictitle="Phase 3: Evaluate and Plan" topicguid="e59069b0-bd8f-49bc-b5d6-64d3fb677975" />
+  <TopicGuidItem ItemID="242" topictitle="Phase 3: Evaluate and Plan" topicguid="5a95278d-a3fb-4d10-96d8-2d69fc849bb3" />
+  <TopicGuidItem ItemID="243" topictitle="Phase 3: Evaluate and Plan" topicguid="73aae2f9-b8cc-48a0-9ad8-76682eb5617e" />
+  <TopicGuidItem ItemID="244" topictitle="Phase 3: Evaluate and Plan" topicguid="05b0fffd-a8e6-4aaa-b203-cc40966d2a8c" />
+  <TopicGuidItem ItemID="245" topictitle="Phase 3: Evaluate and Plan" topicguid="41c840e1-b50a-42cd-aaf2-556a51df8c01" />
+  <TopicGuidItem ItemID="246" topictitle="Phase 3: Evaluate and Plan" topicguid="c57cfc94-9cdc-44f7-a4ae-94fde23f28e5" />
+  <TopicGuidItem ItemID="247" topictitle="Phase 3: Evaluate and Plan" topicguid="598c60f7-80fa-4781-8ccf-282c30aa97d8" />
+  <TopicGuidItem ItemID="248" topictitle="Phase 3: Evaluate and Plan" topicguid="f7fa72a5-b9e0-4d0c-b670-a8c05b5d46b5" />
+  <TopicGuidItem ItemID="249" topictitle="Phase 3: Evaluate and Plan" topicguid="5d36d2a8-fca3-4f53-bb1e-db8d62365930" />
+  <TopicGuidItem ItemID="250" topictitle="Phase 3: Evaluate and Plan" topicguid="f95ebdfc-b919-4f07-a136-f6ed77d44db4" />
+  <TopicGuidItem ItemID="251" topictitle="Phase 3: Evaluate and Plan" topicguid="fe0a91b4-87ea-47eb-be70-4525bf4ec911" />
+  <TopicGuidItem ItemID="252" topictitle="Phase 3: Evaluate and Plan" topicguid="079db386-3405-4538-9b72-375bdb2991a9" />
+  <TopicGuidItem ItemID="253" topictitle="Phase 3: Evaluate and Plan" topicguid="c945526b-88f1-4fe1-b2fb-89d4e1aba51b" />
+  <TopicGuidItem ItemID="254" topictitle="Phase 3: Evaluate and Plan" topicguid="1971a961-aa61-48e2-8f87-c0df5c60b399" />
+  <TopicGuidItem ItemID="255" topictitle="Phase 3: Evaluate and Plan" topicguid="1924c0ac-af99-490b-9ea8-f5939fb6735c" />
+  <TopicGuidItem ItemID="256" topictitle="Phase 3: Evaluate and Plan" topicguid="da3c4695-20e9-405d-bdf5-39b8d040fa6d" />
+  <TopicGuidItem ItemID="257" topictitle="Phase 3: Evaluate and Plan" topicguid="41ebbd08-128a-47ca-8777-2e0709ce6561" />
+  <TopicGuidItem ItemID="258" topictitle="Phase 3: Evaluate and Plan" topicguid="d54132ba-9233-475b-b774-6d9fb047f3fb" />
+  <TopicGuidItem ItemID="259" topictitle="Phase 3: Evaluate and Plan" topicguid="40fd9d41-b773-4005-bbc8-c6b370a1a421" />
+  <TopicGuidItem ItemID="260" topictitle="Phase 3: Evaluate and Plan" topicguid="8028e22d-269e-4bfb-bf4b-35239d60c57d" />
+  <TopicGuidItem ItemID="261" topictitle="Phase 3: Evaluate and Plan" topicguid="3e97a83c-9b2b-4067-8b7d-743e65188765" />
+  <TopicGuidItem ItemID="262" topictitle="Phase 3: Evaluate and Plan" topicguid="b9960d80-07e9-48ef-b690-7f087ced17e2" />
+  <TopicGuidItem ItemID="263" topictitle="Phase 4: Deploy" topicguid="e0882505-c976-4cac-93e3-e2776e7b54fa" />
+  <TopicGuidItem ItemID="264" topictitle="Phase 4: Deployment" topicguid="c1a9f633-cc6e-4842-ab34-f24f00d2a977" />
+  <TopicGuidItem ItemID="265" topictitle="Phase 4: Deploy" topicguid="d4ee59bd-2917-483b-a5f5-d2ee9118ae26" />
+  <TopicGuidItem ItemID="266" topictitle="Phase 4: Deploy" topicguid="14d7863d-88b5-4c6a-87a5-1449ca0a3273" />
+  <TopicGuidItem ItemID="267" topictitle="Phase 4: Deploy" topicguid="e954c034-8cf3-4f8f-b48d-91040d9d9707" />
+  <TopicGuidItem ItemID="268" topictitle="Phase 4: Deploy" topicguid="605d186a-defa-409e-8aaa-fda640428d7e" />
+  <TopicGuidItem ItemID="269" topictitle="Phase 4: Deploy" topicguid="cc3d43a7-d925-4f8f-a10b-f9369f8ad78a" />
+  <TopicGuidItem ItemID="270" topictitle="Phase 4: Deploy" topicguid="90178d37-1008-4b78-b2bd-0b15eb51cadd" />
+  <TopicGuidItem ItemID="271" topictitle="Phase 4: Deploy" topicguid="da192971-c82b-4b68-9c63-0523155bffb7" />
+  <TopicGuidItem ItemID="272" topictitle="Phase 4: Deploy" topicguid="09edab91-47b6-4d53-b618-21dee9410baa" />
+  <TopicGuidItem ItemID="273" topictitle="Phase 4: Deploy" topicguid="5928e5f2-bb68-4832-a98d-3a1dedd92ebb" />
+  <TopicGuidItem ItemID="274" topictitle="Phase 4: Deploy" topicguid="c6bde356-579b-4631-8eef-991c9fd5e829" />
+  <TopicGuidItem ItemID="275" topictitle="Phase 4: Deploy" topicguid="a4a965ba-9c14-4ede-bd2a-b71c8e88c818" />
+  <TopicGuidItem ItemID="276" topictitle="Phase 4: Deploy" topicguid="4093aefc-3fdf-48f7-8a91-404fd583836a" />
+  <TopicGuidItem ItemID="277" topictitle="Phase 4: Deploy" topicguid="40355dc9-4d7d-4a27-a550-a8687eaf3f6c" />
+  <TopicGuidItem ItemID="278" topictitle="Phase 4: Deploy" topicguid="afc9b5a7-8ae1-4032-9725-38c8d7429f86" />
+  <TopicGuidItem ItemID="279" topictitle="Phase 4: Deploy" topicguid="43218377-89f2-4d44-9b12-5506d2ea0be4" />
+  <TopicGuidItem ItemID="280" topictitle="Phase 4: Deploy" topicguid="4d03cd56-984b-46f5-badf-581ea4e17604" />
+  <TopicGuidItem ItemID="281" topictitle="Phase 4: Deploy" topicguid="efbffdc5-90ac-467d-a31d-133375cb7e1c" />
+  <TopicGuidItem ItemID="282" topictitle="Phase 4: Deploy" topicguid="b82d0e06-5eae-4b9f-b13e-c9a3a9417251" />
+  <TopicGuidItem ItemID="283" topictitle="Phase 4: Deploy" topicguid="ed56db8f-1cae-4703-b25a-187d2b0c21d0" />
+  <TopicGuidItem ItemID="284" topictitle="Phased Approach" topicguid="5f6aebd8-2573-487f-ab5e-be0712aa998d" />
+  <TopicGuidItem ItemID="285" topictitle="Phases 1: Assess" topicguid="5841bb02-f140-41f2-9113-b35dc402e815" />
+  <TopicGuidItem ItemID="286" topictitle="PKI Architecture" topicguid="6334ce22-40e7-4436-8412-0867b4dd6460" />
+  <TopicGuidItem ItemID="287" topictitle="Planning and Architecture" topicguid="2b20918e-d83e-400a-aa31-22c61d9bad45" />
+  <TopicGuidItem ItemID="288" topictitle="Planning and Building Standard Images" topicguid="64c46564-2bbe-467f-8f07-41b1886526db" />
+  <TopicGuidItem ItemID="289" topictitle="Planning a Secure Wireless Network" topicguid="36d6d398-36a1-4408-a463-63d71b50afe6" />
+  <TopicGuidItem ItemID="290" topictitle="Planning for Branch Office Services" topicguid="52088f21-13c3-417e-a16f-50903faf4778" />
+  <TopicGuidItem ItemID="291" topictitle="Planning for CA Infrastructure and PKI Implementation" topicguid="872d6b38-99b6-4640-97a8-17be564429ce" />
+  <TopicGuidItem ItemID="292" topictitle="Planning for Microsoft Operations Manager Deployment" topicguid="dbf42b37-5ae2-422b-872c-9bafc21ca354" />
+  <TopicGuidItem ItemID="293" topictitle="Planning for Presence and Managed Instant Messaging Infrastructure" topicguid="a9a623f5-9200-436f-a007-8b5d0bd8a52b" />
+  <TopicGuidItem ItemID="294" topictitle="Planning for Remote Access Services" topicguid="3ad6a3c8-7539-4098-848d-1951f146f623" />
+  <TopicGuidItem ItemID="295" topictitle="Planning for Server and Domain Isolation" topicguid="bb930c93-c700-48b3-adfd-d952fce5e13e" />
+  <TopicGuidItem ItemID="296" topictitle="Policy Management of Firewalls" topicguid="8747f2a1-559b-4a5e-b473-eaf427fd4163" />
+  <TopicGuidItem ItemID="297" topictitle="Preparing to Implement Core IO Requirements" topicguid="44594524-31df-4dce-a659-dc947bd0541f" />
+  <TopicGuidItem ItemID="298" topictitle="Recommended Processes for Moving to the Rationalized Level" topicguid="c04aea9d-4283-4206-8b1a-07034ec1eff8" />
+  <TopicGuidItem ItemID="299" topictitle="Recovery Plan" topicguid="dd5c6db8-b294-4c40-9d99-67ae29b99a2e" />
+  <TopicGuidItem ItemID="300" topictitle="Recovery Times" topicguid="97c2d244-5d9c-4cd2-817e-f595143a40dc" />
+  <TopicGuidItem ItemID="301" topictitle="Release Building" topicguid="6e120ded-ad9d-4674-ac0c-26509d2b4478" />
+  <TopicGuidItem ItemID="302" topictitle="Release Deployment" topicguid="2d0f53bd-7a5a-4856-b5e3-2afb6ae8bc9b" />
+  <TopicGuidItem ItemID="303" topictitle="Release Management" topicguid="3eb28115-4b33-4326-9783-2d602b8bd633" />
+  <TopicGuidItem ItemID="304" topictitle="Release Planning" topicguid="cd1ef22a-9ca8-4b61-b727-11daa930ab3b" />
+  <TopicGuidItem ItemID="305" topictitle="Release Preparation" topicguid="549f979a-9acc-412e-b435-97e05c5eefd7" />
+  <TopicGuidItem ItemID="306" topictitle="Remote Authentication Dial-In User Service (RADIUS)" topicguid="50ac3216-2ddc-4cdd-a5ce-ad02c1391780" />
+  <TopicGuidItem ItemID="307" topictitle="Securing the Desktop" topicguid="7655da65-d9da-4035-bdb0-71de1d292fc7" />
+  <TopicGuidItem ItemID="308" topictitle="Security and Networking" topicguid="b2f22ce8-25dc-485f-a504-b945e14a7fb5" />
+  <TopicGuidItem ItemID="309" topictitle="Security and Protection" topicguid="2911edc9-3c2d-4075-9003-7c9a0e659b74" />
+  <TopicGuidItem ItemID="310" topictitle="Security Patch Management" topicguid="4b82ebea-5579-43bc-b242-62ae6c35ba0b" />
+  <TopicGuidItem ItemID="311" topictitle="Self Assessment" topicguid="a38857a1-759c-46fb-b043-e6a402e11a06" />
+  <TopicGuidItem ItemID="312" topictitle="Service Level Agreement Review" topicguid="ec0735c2-ef3a-43ef-8032-55c587ed1d83" />
+  <TopicGuidItem ItemID="313" topictitle="Service Level Management" topicguid="701b1fe9-7454-42f7-a91f-c526369f3198" />
+  <TopicGuidItem ItemID="314" topictitle="Service Level Monitoring" topicguid="7dd546c9-3876-47cc-b7a5-288b77d40e1f" />
+  <TopicGuidItem ItemID="315" topictitle="Service Level Objectives" topicguid="0d3ce6fd-ec27-4c38-86f6-fb40725a6385" />
+  <TopicGuidItem ItemID="316" topictitle="Session Initiation Protocol (SIP)" topicguid="7439bb5d-53fe-4769-ab74-67bad6bdc1ce" />
+  <TopicGuidItem ItemID="317" topictitle="Setup Activities" topicguid="6adaa104-cc92-4a47-8c31-977a00c7ef93" />
+  <TopicGuidItem ItemID="318" topictitle="Software Independence" topicguid="a7c70238-532c-4710-bf10-cd834a735473" />
+  <TopicGuidItem ItemID="319" topictitle="Software Usage Tracking" topicguid="11f95a02-75e6-459f-be72-55e3ea7425c7" />
+  <TopicGuidItem ItemID="320" topictitle="Solution Currency" topicguid="cf5323b8-9028-4f51-8407-c0cd7550f6f4" />
+  <TopicGuidItem ItemID="321" topictitle="Standardizing Devices" topicguid="1c37aa9d-f720-4fb2-a03d-c47be77a6d96" />
+  <TopicGuidItem ItemID="322" topictitle="Standard Security Review for New Software Acquisitions" topicguid="e1481327-e7fb-403a-9ac1-9dcb5b641004" />
+  <TopicGuidItem ItemID="323" topictitle="Supporting a Network" topicguid="51ab52fe-6681-4d75-b3c2-97c7e5b41868" />
+  <TopicGuidItem ItemID="324" topictitle="System Administration" topicguid="977853b2-d136-4a86-bc10-38b25471848a" />
+  <TopicGuidItem ItemID="325" topictitle="System Center Configuration Manager 2007" topicguid="5b9ebc9a-88a2-4d5d-b882-e3ef6b6426a3" />
+  <TopicGuidItem ItemID="326" topictitle="System Center Operations Manager 2007" topicguid="c8b12233-81bf-48b4-8755-1c7421e98a52" />
+  <TopicGuidItem ItemID="327" topictitle="System Status Monitoring" topicguid="7807d61c-9f87-49d3-91ed-66bd6da0f4d6" />
+  <TopicGuidItem ItemID="328" topictitle="Terminal Services" topicguid="39aaa38a-b8fa-4d07-9beb-057c40f66575" />
+  <TopicGuidItem ItemID="329" topictitle="Test Plan" topicguid="1d491d46-3610-4d3f-8f81-505c87c6382b" />
+  <TopicGuidItem ItemID="330" topictitle="Thick Images" topicguid="b6c0370d-5935-4496-a17f-ac320039efd9" />
+  <TopicGuidItem ItemID="331" topictitle="Trade-Offs" topicguid="9618bbbd-89d4-401b-9900-1446da424380" />
+  <TopicGuidItem ItemID="332" topictitle="Two-Factor Authentication" topicguid="62ba9c9a-1255-4914-b467-0929a9f8c7e7" />
+  <TopicGuidItem ItemID="333" topictitle="" topicguid="d16382f8-1999-46d7-a394-faa14fbdda32" />
+  <TopicGuidItem ItemID="334" topictitle="Updating Office (Office 2003 and the 2007 Office System)" topicguid="6ba49a5a-4778-409f-b524-484b22a839f7" />
+  <TopicGuidItem ItemID="335" topictitle="User State Migration" topicguid="28e90b44-6426-4d7a-9cff-5a04029c2dc8" />
+  <TopicGuidItem ItemID="336" topictitle="Virtual Private Networks" topicguid="77b04328-afa9-43b2-8db9-bcdcc867e212" />
+  <TopicGuidItem ItemID="337" topictitle="Virtual Server 2005" topicguid="9a0e0d03-9a9f-44df-913f-7ef951a3615f" />
+  <TopicGuidItem ItemID="338" topictitle="VPN Design Considerations" topicguid="7b9a52e5-352e-4047-bbf1-34ea7998850c" />
+  <TopicGuidItem ItemID="339" topictitle="WAP" topicguid="3ebabeed-e51c-4cf9-9a6e-1e18c79591e3" />
+  <TopicGuidItem ItemID="340" topictitle="Web-based Applications" topicguid="4533993f-4dbe-4fe3-8990-e29dd89d75af" />
+  <TopicGuidItem ItemID="341" topictitle="What Is PKI?" topicguid="bcde9539-5eca-41b9-9d23-64fd5b73fbcd" />
+  <TopicGuidItem ItemID="342" topictitle="Windows Firewall" topicguid="cbf73166-c7b2-413d-9948-997aa741bb77" />
+  <TopicGuidItem ItemID="343" topictitle="Windows Server&amp;nbsp;IAS" topicguid="b14d75fb-a96d-4c54-9bc5-9e156b570a72" />
+  <TopicGuidItem ItemID="344" topictitle="Windows XP and Windows&amp;nbsp;Vista Advantages" topicguid="1c69def3-8fe9-4b86-bd32-068bbfd08220" />
+  <TopicGuidItem ItemID="345" topictitle="Wireless Authentication Using IEEE 802.11" topicguid="f717b06c-408b-4a78-904a-e5050640bea1" />
+  <TopicGuidItem ItemID="346" topictitle="Wireless Local Area Networks (WLAN)" topicguid="ebfa7dcf-63f6-4ab1-a3b7-776a956df3ae" />
+  <TopicGuidItem ItemID="347" topictitle="Wireless Personal Area Networks (WPAN)" topicguid="f9cd04bd-7432-481b-9404-bc658c5d5199" />
+  <TopicGuidItem ItemID="348" topictitle="Wireless Wide Area Networks (WWAN)" topicguid="55c0e31c-9d15-48c0-bb60-e4d39068aa77" />
+</TopicGuidItems>

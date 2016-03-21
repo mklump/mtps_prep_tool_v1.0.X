@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MtpsPrepTool</name>
+    </assembly>
+    <members>
+        <member name="T:MtpsPrepTool.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:MtpsPrepTool.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:MtpsPrepTool.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:MtpsPrepTool.mainForm">
+            <summary>
+            The mainForm implementation is found here.
+            Although this winform application tool is compiled for any processor, the core
+            library required for Art/Image processing was compiled only for x86, so the complete
+            tool is best run as a 32 bit applications.
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.mainForm.HxComp">
+            <summary>
+            Location of the HxComp.exe help archive compiler.
+            </summary>
+        </member>
+        <member name="F:MtpsPrepTool.mainForm.logFile">
+            <summary>
+            Location of the MtpsPrepTool output log file.
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.mainForm.#ctor">
+            <summary>
+            maimForm default constructor
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.mainForm.btnBrowse_Click(System.Object,System.EventArgs)">
+            <summary>
+            Browse button click event
+            </summary>
+            <param name="sender">Source object</param>
+            <param name="e">Arguements included with source object</param>
+        </member>
+        <member name="M:MtpsPrepTool.mainForm.btnInsertGuids_Click(System.Object,System.EventArgs)">
+            <summary>
+            Insert GUIDs button click event
+            </summary>
+            <param name="sender">Source object</param>
+            <param name="e">Arguements included with source object</param>
+        </member>
+        <member name="M:MtpsPrepTool.mainForm.txtSourceFolder_MouseHover(System.Object,System.EventArgs)">
+            <summary>
+            Displays a tooltip of the selected Source Folder.
+            </summary>
+            <param name="sender">Source object</param>
+            <param name="e">Arguements included with source object</param>
+        </member>
+        <member name="M:MtpsPrepTool.mainForm.btnOpenLogFile_Click(System.Object,System.EventArgs)">
+            <summary>
+            Button click event handler for opening the log file.
+            </summary>
+            <param name="sender">Source object</param>
+            <param name="e">Arguements included with source object</param>
+        </member>
+        <member name="M:MtpsPrepTool.mainForm.IsHelp20SDKInstalled">
+            <summary>
+            Checks for the existance for the Microsoft Help 2.0 SDK, and also ultimately
+            for the required HxComp.exe help archive compiler application.
+            </summary>
+            <returns>True if installed, otherwise false</returns>
+        </member>
+        <member name="M:MtpsPrepTool.mainForm.GetHelpArchives(System.String@)">
+            <summary>
+            Searches the help archive source path and returns all of the .hxs help archives
+            </summary>
+            <param name="sourcePath">Source path of the help archives</param>
+            <returns>A list of all the help archive (.HxS) files, otherwise null</returns>
+        </member>
+        <member name="M:MtpsPrepTool.mainForm.DecompileArchive(System.String,System.String)">
+            <summary>
+            Helper method Decompiles the specified Help Archive.
+            </summary>
+            <returns>Decompile error status</returns>
+            <param name="helpArchive"></param>
+            <param name="sourcePath">Source path of the help archives</param>
+            <returns>Decompilation error status, 0 for success and -1 for failure</returns>
+        </member>
+        <member name="M:MtpsPrepTool.mainForm.RecompileArchive(System.String,System.String)">
+            <summary>
+            Helper method Recompiles the specified Help Archive.
+            </summary>
+            <param name="helpArchive">Next specified .HxS Havana help archive for recompiling</param>
+            <param name="sourcePath">Source path of the help archives</param>
+            <returns>Recompilation error status, 0 for success and -1 for failure</returns>
+        </member>
+        <member name="M:MtpsPrepTool.mainForm.ResetIODirectory(System.String)">
+            <summary>
+            Helper method that "resets" the required Help Archive IO
+            processing directory.
+            </summary>
+            <param name="sourcePath">Source path of the help archives</param>
+        </member>
+        <member name="M:MtpsPrepTool.mainForm.WriteLogFile(System.String)">
+            <summary>
+            Write log file to the specified location.
+            </summary>
+            <param name="logFilePath">Location to write out the log file</param>
+        </member>
+        <member name="M:MtpsPrepTool.mainForm.InsertGuid(System.Int32,System.String,System.String,System.Collections.ArrayList@,System.String)">
+            <summary>
+            Helper method that inserts GUID line at the specified location.
+            </summary>
+            <param name="insertAt">Insertion location within an HtmlTopic file</param>
+            <param name="line">Line found with leading tab characters</param>
+            <param name="htmlFile">Path to Html Topic file under processing</param>
+            <param name="sourceList">ArrayList for processing the Html Topic file</param>
+            <param name="oldGUID">Specifies the old GUID applied from previous build</param>
+            <returns>The complete XML line containing the new GUID</returns>
+        </member>
+        <member name="M:MtpsPrepTool.mainForm.FindLinesForInsert(System.String,System.String)">
+            <summary>
+            Helper method that finds the appropriate line in Html topic file for where the
+            GUID needs to be inserted into each Html topic file's Xml Data island.
+            Added fix: Original GUIDs will be saved with each originally associated Html Topic
+            file and in each .HxS help archive as a separate text file in the same location as
+            each help archive. This will allow the assigning of each original GUID when a given
+            help archive is rebuilt.
+            </summary>
+            <param name="helpArchive">Name of the help archive being processed</param>
+            <param name="sourcePath">Source path of the help archives</param>
+        </member>
+        <member name="M:MtpsPrepTool.mainForm.GetImages(System.String)">
+            <summary>
+            Helper method that goes to the help achive\images folder to retrieve
+            a list of all the images contained their.
+            </summary>
+            <param name="sourcePath">Source path of the help archives</param>
+            <returns>An ImageMagick.ImageList collection</returns>
+        </member>
+        <member name="M:MtpsPrepTool.mainForm.CheckArtImageCollection(System.String,System.String)">
+            <summary>
+            Help method that checks each Art/Image file has correct maximum width
+            and supported MTPS image format.
+            </summary>
+            <param name="helpArchive">Next specified .HxS Havana help archive for Art/Image Checking</param>
+            <param name="sourcePath">Source path of the help archives</param>
+            <returns>CheckArtImageCollertion error status, 0 for success and -1 for failure</returns>
+        </member>
+        <member name="M:MtpsPrepTool.mainForm.ProcessHelpArchives(System.String)">
+            <summary>
+            Processes the specifed source folder path containing HxS Help Archives
+            and inserts a randomly generated 8-4-4-4-12 GUID inside of each of the
+            Html Help topics within the Xml Data Island. Please note that the
+            Microsoft Help 2.0 SDK must be installed, and is explicitly checked for
+            otherwise this tool will not succeed.
+            </summary>
+            <param name="sourcePath">Reference to Help Archive (.HxS) location</param>
+        </member>
+        <member name="F:MtpsPrepTool.mainForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MtpsPrepTool.mainForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MtpsPrepTool.mainForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,148 @@
+<?xml version="1.0" standalone="yes"?>
+<TopicGuidItems>
+  <xs:schema id="TopicGuidItems" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="TopicGuidItems" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="TopicGuidItem">
+            <xs:complexType>
+              <xs:attribute name="ItemID" type="xs:int" use="required" />
+              <xs:attribute name="topictitle" type="xs:string" />
+              <xs:attribute name="topicguid" type="xs:string" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//TopicGuidItem" />
+        <xs:field xpath="@ItemID" />
+      </xs:unique>
+      <xs:unique name="Constraint2">
+        <xs:selector xpath=".//TopicGuidItem" />
+        <xs:field xpath="@topicguid" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <TopicGuidItem ItemID="1" topictitle="Audience" topicguid="2869f06e-e3f9-419d-af00-6edff274ad00" />
+  <TopicGuidItem ItemID="2" topictitle="Checkpoint: Antivirus Software for Desktops" topicguid="ffdc3954-18d4-4109-8b8b-f036273cd2d3" />
+  <TopicGuidItem ItemID="3" topictitle="Checkpoint: Automated Patch Distribution to Desktops and Laptops" topicguid="95a369c0-6a87-4e22-a001-6af148e9c1ae" />
+  <TopicGuidItem ItemID="4" topictitle="Checkpoint: Availability Monitoring of Critical Servers" topicguid="ebb812a0-97f1-42aa-8543-f6c8860b83da" />
+  <TopicGuidItem ItemID="5" topictitle="Checkpoint: Centralized Firewall Services" topicguid="9dd62453-5253-4ad2-8154-13a3c22de692" />
+  <TopicGuidItem ItemID="6" topictitle="Checkpoint: Centralized Management of Mobile Devices" topicguid="90ec8a8f-8778-454a-9b4d-5cf431672e29" />
+  <TopicGuidItem ItemID="7" topictitle="Checkpoint: Consolidation of Desktop Images to Two Operating System Versions" topicguid="a75d83cb-d09d-42d0-a4ed-8e5afdbf5ec3" />
+  <TopicGuidItem ItemID="8" topictitle="Checkpoint: Defined Backup and Restore Services for Critical Servers" topicguid="bc929821-f6e2-437b-8279-5f6e92ea145d" />
+  <TopicGuidItem ItemID="9" topictitle="Checkpoint: Defined Standard Images for Desktops and Laptops" topicguid="0521c795-cf52-4f12-8b7d-2f105f1dd7d8" />
+  <TopicGuidItem ItemID="10" topictitle="Checkpoint: Identity Validation, Data Protection, and Data Backup of Mobile Devices Checkpoint" topicguid="e8579c4d-bfc4-4832-b004-9299da19ac30" />
+  <TopicGuidItem ItemID="11" topictitle="Checkpoint: Internally Managed Basic Networking Services (DNS, DHCP, WINS)" topicguid="230a09f3-fbc7-44ef-8ef7-da1627579cc5" />
+  <TopicGuidItem ItemID="12" topictitle="Checkpoint: Security Policies, Risk Assessment, Incident Response, and Data Security" topicguid="b12d8f2f-fab8-44ba-828d-b08c3af54fe9" />
+  <TopicGuidItem ItemID="13" topictitle="Checkpoint: Support and Change Management Process" topicguid="190f6952-f7fd-4a43-a594-e33333112c5f" />
+  <TopicGuidItem ItemID="14" topictitle="Core Infrastructure Optimization Capabilities" topicguid="1807c0cb-5f82-4865-9d2a-e1558191d57b" />
+  <TopicGuidItem ItemID="15" topictitle="Core Infrastructure Optimization Model Levels" topicguid="0a7998c1-8621-4047-809a-7f3d9c639daf" />
+  <TopicGuidItem ItemID="16" topictitle="Infrastructure Optimization Concept" topicguid="fb01ab1f-535f-4797-b970-c6f47ff0da82" />
+  <TopicGuidItem ItemID="17" topictitle="Introduction" topicguid="43d6b9db-db3f-49b7-ab19-b38aeff67429" />
+  <TopicGuidItem ItemID="18" topictitle="Introduction" topicguid="e64e3504-54a4-496e-83a5-f16dede689fb" />
+  <TopicGuidItem ItemID="19" topictitle="Introduction" topicguid="24b0658e-645c-4d55-9259-3f65ae10a167" />
+  <TopicGuidItem ItemID="20" topictitle="Introduction" topicguid="328254ef-c40a-4548-90e7-2b679f99047b" />
+  <TopicGuidItem ItemID="21" topictitle="Introduction" topicguid="5ec795ab-816d-4269-a8f3-4d50df556f46" />
+  <TopicGuidItem ItemID="22" topictitle="Introduction" topicguid="9baeadae-0078-4ecc-9ca2-96e8c0604d6b" />
+  <TopicGuidItem ItemID="36" topictitle="Antivirus Software for Desktops" topicguid="a7313d71-2c20-4d34-a01a-ddd6216f6ca4" />
+  <TopicGuidItem ItemID="37" topictitle="Automated Patch Distribution to Desktops and Laptops" topicguid="f9c71bc3-20ef-47ca-b67b-f2a08cfecd93" />
+  <TopicGuidItem ItemID="38" topictitle="Availability Management" topicguid="5b139b57-b1bf-4f05-95d5-99491408a95d" />
+  <TopicGuidItem ItemID="39" topictitle="Availability Monitoring of Critical Servers" topicguid="dfa95b9c-7c45-4d81-a464-7f2bb77909b0" />
+  <TopicGuidItem ItemID="40" topictitle="Available Tools" topicguid="dce0556f-1291-4595-b7b1-674a5c459e96" />
+  <TopicGuidItem ItemID="41" topictitle="Backup Plan" topicguid="17d9f6c6-c790-4e94-b12c-3af6864254f8" />
+  <TopicGuidItem ItemID="42" topictitle="Capability: Data Protection and Recovery" topicguid="5e5fa3bd-7b24-4dbc-8672-8ca914c5e7ee" />
+  <TopicGuidItem ItemID="43" topictitle="Capability: Desktop, Device and Server Management" topicguid="4ac6de27-3202-4336-8fb6-2ea28ce6e5f4" />
+  <TopicGuidItem ItemID="44" topictitle="Capability: Identity and Access Management" topicguid="4a7ebcef-002a-48a0-a7c2-d2442be4bcf1" />
+  <TopicGuidItem ItemID="45" topictitle="Capability: Security and ITIL/COBIT-Based Management Process" topicguid="5219d16a-0d85-43ad-8aa3-20cbe48b0cc0" />
+  <TopicGuidItem ItemID="46" topictitle="Capability: Security and Networking" topicguid="bf917e6d-be75-48b1-b965-e7ee48f9d3ab" />
+  <TopicGuidItem ItemID="47" topictitle="Central Firewall Services" topicguid="5e452ef9-05ec-4fef-8539-7b0e699dee99" />
+  <TopicGuidItem ItemID="48" topictitle="Centralized Management of Mobile Devices" topicguid="43244fd4-018a-4c2e-ad23-b50ff8fbed65" />
+  <TopicGuidItem ItemID="49" topictitle="Checkpoint: Directory Services for Authentication of Users" topicguid="7a914124-03f0-4de5-a26d-be1556b533d3" />
+  <TopicGuidItem ItemID="50" topictitle="Client Defenses" topicguid="8faa488c-f18c-4393-b4f7-bb662b729591" />
+  <TopicGuidItem ItemID="51" topictitle="Consolidation of Desktop Images to Two Operating System Versions" topicguid="562dfa46-cf2b-4ce8-b7c5-14439b9eddbc" />
+  <TopicGuidItem ItemID="52" topictitle="Core Infrastructure Optimization Capability Overview" topicguid="ac29ae69-4151-4059-8132-1b0cefeb31b9" />
+  <TopicGuidItem ItemID="53" topictitle="Data Access" topicguid="7fd54e42-3e77-4ca3-a000-0f58f810bbb3" />
+  <TopicGuidItem ItemID="54" topictitle="Data Backup" topicguid="6d31d8dc-77ca-4a05-956a-458057d7dd37" />
+  <TopicGuidItem ItemID="55" topictitle="Data Protection and Recovery" topicguid="0c5c40dc-8227-4787-95f2-ba2098babc6e" />
+  <TopicGuidItem ItemID="56" topictitle="Data Security" topicguid="a33f7717-2de7-4e1a-9499-84ff9c670297" />
+  <TopicGuidItem ItemID="57" topictitle="Defined Backup and Restore Services for Critical Servers" topicguid="e9326f42-313d-4ad0-93bb-0866f9eae8c7" />
+  <TopicGuidItem ItemID="58" topictitle="Defined Standard Images for Desktops and Laptops" topicguid="89d4de37-cb9e-4a67-abcc-33685b24c36f" />
+  <TopicGuidItem ItemID="59" topictitle="Designing the Active Directory Structure" topicguid="16882ec9-8bce-4697-9b37-1dec2bd2dec9" />
+  <TopicGuidItem ItemID="60" topictitle="Designing the Directory Service" topicguid="5d1b3c8f-7abc-4a56-8911-f202cefde775" />
+  <TopicGuidItem ItemID="61" topictitle="Desktop, Device and Server Management" topicguid="8ff82164-0f99-4361-ae64-b496b2af078e" />
+  <TopicGuidItem ItemID="62" topictitle="Development" topicguid="254a519c-dca6-4b03-b53f-3f88d8ddcf40" />
+  <TopicGuidItem ItemID="63" topictitle="Directory Services for Authentication of User" topicguid="72d3aa61-e6d2-4d39-b474-8c80d74a8065" />
+  <TopicGuidItem ItemID="64" topictitle="Domain Name System (DNS)" topicguid="b290ba52-4fb8-45d6-bfe7-8cf8a2570477" />
+  <TopicGuidItem ItemID="65" topictitle="Dynamic Host Configuration Protocol (DHCP)" topicguid="f5355596-7c3b-4e3f-af74-d787b54b4e0e" />
+  <TopicGuidItem ItemID="66" topictitle="Exchange Server 2003 and Exchange Server 2007" topicguid="cf982bfa-836c-4b04-a415-630ad72157ef" />
+  <TopicGuidItem ItemID="67" topictitle="Firewall Features" topicguid="95e29ba3-83d9-45cd-9df7-de84caad7afa" />
+  <TopicGuidItem ItemID="68" topictitle="Further information" topicguid="e3019eb5-d169-4ffa-8282-62ac3abb646d" />
+  <TopicGuidItem ItemID="69" topictitle="Hybrid Images" topicguid="85b4ec55-6271-42f0-afa6-5468584f3b6e" />
+  <TopicGuidItem ItemID="70" topictitle="Identity and Access Management" topicguid="909d21d0-f120-4bd3-b544-c9b34e788e44" />
+  <TopicGuidItem ItemID="71" topictitle="Identity Validation, Data Protection, and Data Backup of Mobile Devices" topicguid="1500e8ce-636a-4ee4-94c9-a1596f3b9422" />
+  <TopicGuidItem ItemID="72" topictitle="Implementation Services" topicguid="19d344ae-3b0f-4ab6-8172-80dd514b453d" />
+  <TopicGuidItem ItemID="73" topictitle="Implementing Change Management Best Practices" topicguid="2de95917-fb04-48f3-b60c-000032db9b18" />
+  <TopicGuidItem ItemID="74" topictitle="Improving End-User Support Services" topicguid="d0594aeb-7174-44b5-bc89-b87724404a5a" />
+  <TopicGuidItem ItemID="75" topictitle="Incident Management" topicguid="bf95f248-860b-4298-88a8-0dfc58f4db63" />
+  <TopicGuidItem ItemID="76" topictitle="Incident Response" topicguid="88a91e6d-ae09-4786-bda9-420a0f3545a2" />
+  <TopicGuidItem ItemID="77" topictitle="Internal DHCP Server" topicguid="e77328c0-8ce9-4645-803e-0d0e537e02aa" />
+  <TopicGuidItem ItemID="78" topictitle="Internal DNS Server" topicguid="a9c54c0e-0ccb-40fe-9d26-a718d8d53bf7" />
+  <TopicGuidItem ItemID="79" topictitle="Internally Managed Basic Networking Services (DNS, DHCP, WINS)" topicguid="aeb7b543-965e-4283-885b-fafc73a4ae47" />
+  <TopicGuidItem ItemID="80" topictitle="IT and Security Process" topicguid="659df331-f2a7-4bf5-80b8-d65e9e478a5f" />
+  <TopicGuidItem ItemID="81" topictitle="Levels of Defense" topicguid="ab08936d-08f5-4785-b14c-1fda077de3c6" />
+  <TopicGuidItem ItemID="82" topictitle="Monitoring Data" topicguid="d1bd8b28-2850-4c0a-b509-d4993e9af5ce" />
+  <TopicGuidItem ItemID="83" topictitle="Monitoring Software" topicguid="38f89487-ddb3-455e-954e-e1929211d5ed" />
+  <TopicGuidItem ItemID="84" topictitle="Network Firewalls &amp;#8211; Classes 2-5" topicguid="a70a434f-0e52-47a9-be5d-b9054eaf7603" />
+  <TopicGuidItem ItemID="85" topictitle="Operations" topicguid="83929afa-9d21-401f-b809-33685ed7595e" />
+  <TopicGuidItem ItemID="86" topictitle="Optimization Level 1: Basic" topicguid="5d5230ff-3b94-4273-86a6-e62a1f869964" />
+  <TopicGuidItem ItemID="87" topictitle="Optimization Level 2: Standardized" topicguid="6f3cd332-ee59-42b4-9e95-6678c846101e" />
+  <TopicGuidItem ItemID="88" topictitle="Optimization Level 3: Rationalized" topicguid="f7ac7a67-465d-4791-be99-4c8205ca7e54" />
+  <TopicGuidItem ItemID="89" topictitle="Optimization Level 4: Dynamic" topicguid="b1a747e9-52c5-4aad-aca7-56fa2dd837f3" />
+  <TopicGuidItem ItemID="90" topictitle="Overview" topicguid="1b779657-ee3a-4191-8d8a-82a289445ae4" />
+  <TopicGuidItem ItemID="91" topictitle="Phase 1: Assess" topicguid="1021d3e0-641d-42c6-9285-fa688d64beda" />
+  <TopicGuidItem ItemID="92" topictitle="Phase 2: Identify" topicguid="1daf2dd6-8ecc-4c4c-9704-2fac58c2c243" />
+  <TopicGuidItem ItemID="93" topictitle="Phase 3: Evaluate and Plan" topicguid="37211e75-0dfa-4252-9889-9c92a63aa844" />
+  <TopicGuidItem ItemID="94" topictitle="Phase 4: Deploy" topicguid="4f532f0b-d03a-4577-b24f-31669e43193a" />
+  <TopicGuidItem ItemID="95" topictitle="Phase 4: Deploy (Change Management)" topicguid="04c023ce-0930-49b6-af14-4cf0d40aed3e" />
+  <TopicGuidItem ItemID="96" topictitle="Phase 4: Deploy (Configuration Management)" topicguid="3d7f87fb-fe50-4936-bbaa-d37ae42be7c1" />
+  <TopicGuidItem ItemID="97" topictitle="Phase 4: Deploy (Incident Management)" topicguid="e3904772-fc53-4e8b-8ff4-b557fefa64a6" />
+  <TopicGuidItem ItemID="98" topictitle="Phase 4: Deploy (Problem Management)" topicguid="463b6b03-b0e0-4b30-9726-3eff061e3113" />
+  <TopicGuidItem ItemID="99" topictitle="Phase 4: Deploy (Service Desk)" topicguid="492365e7-8c30-4b42-9126-c72f176f4359" />
+  <TopicGuidItem ItemID="100" topictitle="Phased Approach" topicguid="fa034ebf-a871-4651-ba59-6a90cecf6327" />
+  <TopicGuidItem ItemID="101" topictitle="Preparing to Implement Core IO Requirements" topicguid="2656cc65-1e05-4f8c-b65e-2fcb5dbc4257" />
+  <TopicGuidItem ItemID="102" topictitle="Problem Management" topicguid="960d1ebd-8268-4ec7-9dee-eb05b6652861" />
+  <TopicGuidItem ItemID="103" topictitle="Recommended Processes for Moving to the Standardized Level" topicguid="b38e2638-ceda-4afc-9bad-beff06b0e43d" />
+  <TopicGuidItem ItemID="104" topictitle="Recommended Reading" topicguid="e49817c7-13cc-41c9-a3aa-8384b5032de0" />
+  <TopicGuidItem ItemID="105" topictitle="Recovery Plan" topicguid="eb594551-2b07-4a8a-8da9-ce5c2372ff3a" />
+  <TopicGuidItem ItemID="106" topictitle="Rendering the Logical Design" topicguid="390b8ebe-3cc3-48d1-bfd5-098dce7a70f8" />
+  <TopicGuidItem ItemID="107" topictitle="Response to Events" topicguid="48814177-a613-4c1f-a501-56521b34fb64" />
+  <TopicGuidItem ItemID="108" topictitle="Risk Assessment" topicguid="508fba85-e1ab-4044-b3cf-2b079414115c" />
+  <TopicGuidItem ItemID="109" topictitle="Security and Networking" topicguid="cf6dabb9-c5fb-43cc-accb-c8d7a4d48591" />
+  <TopicGuidItem ItemID="110" topictitle="Security Policies" topicguid="5dc30b42-024e-4234-b615-9fc4ba0978a4" />
+  <TopicGuidItem ItemID="111" topictitle="Security Policies, Risk Assessment, Incident Response, and Data Security" topicguid="c358dadc-a1a2-40b3-8f41-9ede4f3476e7" />
+  <TopicGuidItem ItemID="112" topictitle="Self Assessment" topicguid="d4a06c30-d438-4db7-ab7a-8c00531c3b3f" />
+  <TopicGuidItem ItemID="113" topictitle="Service Definition and Configuration Management" topicguid="d9b009b3-ab5b-4274-8090-b617214cf08b" />
+  <TopicGuidItem ItemID="114" topictitle="SMS 2003 Device Management Feature Pack" topicguid="f694a802-a873-4a03-8557-1ef4bcb835a6" />
+  <TopicGuidItem ItemID="115" topictitle="Solution Currency" topicguid="cd306844-709a-40c8-8cd2-df761191f8ac" />
+  <TopicGuidItem ItemID="116" topictitle="Stabilization" topicguid="0159ffc1-456a-45c1-9aea-faec00139db5" />
+  <TopicGuidItem ItemID="117" topictitle="Step 1: Reduce the Attack Surface" topicguid="b6f968ee-6fdf-4998-95c8-76b416732c18" />
+  <TopicGuidItem ItemID="118" topictitle="Step 2: Apply Security Updates" topicguid="4b53ca1f-293a-4e6d-9ee8-0c8010ea0a6e" />
+  <TopicGuidItem ItemID="119" topictitle="Step 3: Enable a Host-Based Firewall" topicguid="58652510-e670-4259-af4e-4bbd0825eb13" />
+  <TopicGuidItem ItemID="120" topictitle="Step 4: Install Antivirus Software" topicguid="00544947-41ee-46cc-8273-a8e736686744" />
+  <TopicGuidItem ItemID="121" topictitle="Step 5: Test with Vulnerability Scanners" topicguid="c10bacb2-b892-4c09-aa72-159460036f62" />
+  <TopicGuidItem ItemID="122" topictitle="Suggested Antivirus Software" topicguid="45561f13-aaa4-4781-9f80-9fedb2b13aa3" />
+  <TopicGuidItem ItemID="123" topictitle="Support and Change Management Process" topicguid="aa3fb760-9749-406b-9664-2e049d9ec99f" />
+  <TopicGuidItem ItemID="124" topictitle="Test Plan" topicguid="2195cadc-3fd6-41c6-8574-0dbe8852126c" />
+  <TopicGuidItem ItemID="125" topictitle="Thick Images" topicguid="5982b8fe-a223-45cd-a9f7-5bc2ddbd0da7" />
+  <TopicGuidItem ItemID="126" topictitle="Thin Images" topicguid="3146134b-8b18-439a-8888-04b018cb548c" />
+  <TopicGuidItem ItemID="127" topictitle="Tool Coverage in Patch Process" topicguid="59ae68fb-5406-4f6e-a2b6-ae59a59c7861" />
+  <TopicGuidItem ItemID="128" topictitle="Types of Firewalls" topicguid="ce6030fd-b11a-4146-b087-64685adafdda" />
+  <TopicGuidItem ItemID="129" topictitle="" topicguid="ba70d2e3-87e6-47db-9777-10565be07382" />
+  <TopicGuidItem ItemID="130" topictitle="User Access" topicguid="f5714dab-366f-4e5c-b93c-ffef869cffdd" />
+  <TopicGuidItem ItemID="131" topictitle="Windows Internet Naming Service (WINS)" topicguid="c8d9dc73-6716-436b-80dc-658fcc164aa9" />
+  <TopicGuidItem ItemID="132" topictitle="WINS and Internal Resources" topicguid="74ee8ad0-c8ce-4333-98cb-9da56ff029f1" />
+  <TopicGuidItem ItemID="133" topictitle="Additional Resources: Basic to Standardized Checklist" topicguid="6bcdbd5c-12c0-4895-8195-52b3df704601" />
+  <TopicGuidItem ItemID="134" topictitle="Additional Resources: Tools and Technologies" topicguid="1a22fc4b-96c6-4d8b-ad9c-6805e9b75b63" />
+  <TopicGuidItem ItemID="135" topictitle="Core Infrastructure Optimization Implementer Resource Guide: Basic to Standardized" topicguid="20d34bad-fa61-42e5-893a-db3d779ae014" />
+</TopicGuidItems>

@@ -1,0 +1,114 @@
+<?xml version="1.0" standalone="yes"?>
+<TopicGuidItems>
+  <xs:schema id="TopicGuidItems" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="TopicGuidItems" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="TopicGuidItem">
+            <xs:complexType>
+              <xs:attribute name="ItemID" type="xs:int" use="required" />
+              <xs:attribute name="topictitle" type="xs:string" />
+              <xs:attribute name="topicguid" type="xs:string" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//TopicGuidItem" />
+        <xs:field xpath="@ItemID" />
+      </xs:unique>
+      <xs:unique name="Constraint2">
+        <xs:selector xpath=".//TopicGuidItem" />
+        <xs:field xpath="@topicguid" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <TopicGuidItem ItemID="1" topictitle="Audience" topicguid="7f7b2011-f9ec-4f53-8f13-f3750327636f" />
+  <TopicGuidItem ItemID="2" topictitle="Core Infrastructure Optimization Capabilities" topicguid="36642224-24ab-43b2-977e-bc4c0167f8e6" />
+  <TopicGuidItem ItemID="3" topictitle="Core Infrastructure Optimization Capability Overview" topicguid="a3f4c486-f12c-4bfd-a02c-63fa49964c8d" />
+  <TopicGuidItem ItemID="4" topictitle="Core Infrastructure Optimization Model Levels" topicguid="dcd21489-938b-4498-9094-20415c38d6d3" />
+  <TopicGuidItem ItemID="5" topictitle="Infrastructure Optimization Concept" topicguid="e7569469-ca8d-4a95-b13f-7a04f9319278" />
+  <TopicGuidItem ItemID="6" topictitle="Introduction" topicguid="7f2d7132-c30a-48e8-b398-6a157bbe1f69" />
+  <TopicGuidItem ItemID="7" topictitle="Introduction" topicguid="ea822f59-e6d2-4d27-b806-be9b9fdfacec" />
+  <TopicGuidItem ItemID="8" topictitle="Introduction" topicguid="abba230c-e283-40d2-81ce-6119d20c3e38" />
+  <TopicGuidItem ItemID="9" topictitle="Introduction" topicguid="1be81d36-2263-4d9b-887f-98934cdde843" />
+  <TopicGuidItem ItemID="10" topictitle="Introduction" topicguid="d83501da-aa43-43df-a1d6-39f3702fd9b6" />
+  <TopicGuidItem ItemID="22" topictitle="Active Directory Application Mode (ADAM)" topicguid="f806223f-e94e-4596-bfd5-13c347c76879" />
+  <TopicGuidItem ItemID="23" topictitle="Active Directory Federation Services (ADFS)" topicguid="c41b6e3c-b4d4-461e-aba1-d88ede4f9581" />
+  <TopicGuidItem ItemID="24" topictitle="Advanced Two-Factor Authentication" topicguid="b7319f74-d9a8-4c3b-ae8c-669cda6f87fe" />
+  <TopicGuidItem ItemID="25" topictitle="Backup Types" topicguid="efd155b0-ff03-488d-94ab-b412f1e9cf6d" />
+  <TopicGuidItem ItemID="26" topictitle="Capability: Data Protection and Recovery" topicguid="e0f951ec-6709-4f7b-bb09-5c1a3b2f8863" />
+  <TopicGuidItem ItemID="27" topictitle="Capability: Desktop, Device and Server Management" topicguid="e3033354-67a4-48f7-a911-545b6adb6f6b" />
+  <TopicGuidItem ItemID="28" topictitle="Capability: Identity and Access Management" topicguid="98230281-43b9-4b73-a76f-660def9c883d" />
+  <TopicGuidItem ItemID="29" topictitle="Capability: ITIL/COBIT-based Management Process" topicguid="783e1619-d1f8-44cb-8085-8570144d2fc2" />
+  <TopicGuidItem ItemID="30" topictitle="Capability: Security and ITIL/COBIT-based Management Process" topicguid="b8a84e8f-9674-4e37-90d2-d1a26875404a" />
+  <TopicGuidItem ItemID="31" topictitle="Capability: Security and Networking" topicguid="2d0cee0a-0831-4ef1-b92f-c2d6f55c562e" />
+  <TopicGuidItem ItemID="32" topictitle="Capability: Security Process" topicguid="975f1ddb-c9ca-4be7-9830-18b95df240fc" />
+  <TopicGuidItem ItemID="33" topictitle="Capacity Management Process Flow" topicguid="7114f5fe-736b-462d-8090-8871d5d4a384" />
+  <TopicGuidItem ItemID="34" topictitle="Capacity Planning Technologies" topicguid="d45697d5-df45-41f3-a273-f59d9ef5c64c" />
+  <TopicGuidItem ItemID="35" topictitle="Checkpoint: Advanced Two-Factor User Authentication" topicguid="84ea2d65-8772-4884-b5e7-9c7c94067260" />
+  <TopicGuidItem ItemID="36" topictitle="Custom Tools" topicguid="33aa3da3-d921-46b9-a25c-916553de357a" />
+  <TopicGuidItem ItemID="37" topictitle="Data Protection and Recovery" topicguid="aaccc2cb-2767-42bf-98f4-044ff970e83a" />
+  <TopicGuidItem ItemID="38" topictitle="Defined Basic Images for Mobile Devices" topicguid="d387b487-6401-4de7-a128-a663bc7861cf" />
+  <TopicGuidItem ItemID="39" topictitle="Deploying Virtualized Services into Operations" topicguid="cc7104b2-b624-4dd5-b57f-394dc392be4c" />
+  <TopicGuidItem ItemID="40" topictitle="Desktop, Device and Server Management" topicguid="36f4e56c-bce1-4072-a099-d5261fc76ffb" />
+  <TopicGuidItem ItemID="41" topictitle="Device Management Products" topicguid="af8868f3-8218-40d7-b8b8-1c44c2e07f84" />
+  <TopicGuidItem ItemID="42" topictitle="Dynamic Movement of Workloads Between Servers" topicguid="401448cb-6cd1-44fe-9543-1211ae1e9efa" />
+  <TopicGuidItem ItemID="43" topictitle="Establishing a Backup Plan" topicguid="c044fe6c-7729-437d-b5e9-cc0263a0e2fb" />
+  <TopicGuidItem ItemID="44" topictitle="Evaluating the Technologies" topicguid="3c0ff496-3898-40e4-a006-0d7ea24fab49" />
+  <TopicGuidItem ItemID="45" topictitle="Further Information" topicguid="02ec033a-1452-4eab-a449-6b631e718533" />
+  <TopicGuidItem ItemID="46" topictitle="Group Management" topicguid="c057f69e-0de6-4b9f-a24a-c4315a36307d" />
+  <TopicGuidItem ItemID="47" topictitle="HR-driven Provisioning" topicguid="ae4428ea-3128-4241-8dd2-31f31f50e0c8" />
+  <TopicGuidItem ItemID="48" topictitle="Identity and Access Management" topicguid="c2c260b3-2167-43de-80fc-dc4361034a33" />
+  <TopicGuidItem ItemID="49" topictitle="Implementation Services" topicguid="1a61f572-5e28-45f8-b908-04226143c773" />
+  <TopicGuidItem ItemID="50" topictitle="Infrastructure Engineering Process Flow" topicguid="4fc7ddb7-7234-48d0-8f5e-822a14dc2cb9" />
+  <TopicGuidItem ItemID="51" topictitle="Intelligent Application Gateway (IAG) 2007" topicguid="c694934e-7c3b-496e-b9c9-e7f7cea77fdf" />
+  <TopicGuidItem ItemID="52" topictitle="Internet Security and Acceleration (ISA) Server 2006" topicguid="1532a806-c7f3-4a73-aadc-0d39993b2385" />
+  <TopicGuidItem ItemID="53" topictitle="Microsoft Identity Integration Server 2003" topicguid="8e5d602f-0411-4fe0-967e-5c79ea523cdd" />
+  <TopicGuidItem ItemID="54" topictitle="Microsoft Identity Lifecycle Manager 2007" topicguid="b3abdf0b-1b83-44e6-95d2-a7a9851c95bf" />
+  <TopicGuidItem ItemID="55" topictitle="Monitoring Technologies" topicguid="72e919f9-6eef-4299-8d7f-1dfad8a26332" />
+  <TopicGuidItem ItemID="56" topictitle="Network Access Protection" topicguid="38af7ae9-a9ff-4175-8a3e-469c162beaa6" />
+  <TopicGuidItem ItemID="57" topictitle="Optimization Level 1: Basic" topicguid="25e746ab-6707-491c-943e-7862d6128eae" />
+  <TopicGuidItem ItemID="58" topictitle="Optimization Level 2: Standardized" topicguid="8de5bdb6-2226-4b51-879f-7a2e23918570" />
+  <TopicGuidItem ItemID="59" topictitle="Optimization Level 3: Rationalized" topicguid="60753265-b27c-44df-88af-644953ef284f" />
+  <TopicGuidItem ItemID="60" topictitle="Optimization Level 4: Dynamic" topicguid="e0190f47-ee7d-409c-9cfc-aa438ae0a898" />
+  <TopicGuidItem ItemID="61" topictitle="Overview" topicguid="834e60c8-bc02-401a-b2b8-9ded5a912547" />
+  <TopicGuidItem ItemID="62" topictitle="Partner Solutions" topicguid="879a9ec7-266f-48b5-8b5d-93a7fa74565d" />
+  <TopicGuidItem ItemID="63" topictitle="Phase 1: Assess" topicguid="68e4f581-5e34-47bb-8d11-1b52c23e7b83" />
+  <TopicGuidItem ItemID="64" topictitle="Phase 2: Identify" topicguid="36814150-f0e4-4b57-8d58-a59c00590c43" />
+  <TopicGuidItem ItemID="65" topictitle="Phase 3: Evaluate and Plan" topicguid="5ae4f3ef-757a-4b13-a3ed-76e030638a6a" />
+  <TopicGuidItem ItemID="66" topictitle="Phase 4: Deploy" topicguid="c5deac8c-9850-4d12-9dbf-c2ba4d0999f8" />
+  <TopicGuidItem ItemID="67" topictitle="Phase 4: Deploy (Availability Management)" topicguid="079d46b3-2eae-4ac1-b017-c5a72de69191" />
+  <TopicGuidItem ItemID="68" topictitle="Phase 4: Deploy (Financial Management)" topicguid="e020c75a-7a3c-4b15-ad18-bb61fc1bb5dc" />
+  <TopicGuidItem ItemID="69" topictitle="Phase 4: Deploy (Infrastructure Engineering)" topicguid="0451c282-d620-451d-94b8-9577fc8fccbf" />
+  <TopicGuidItem ItemID="70" topictitle="Phase 4: Deploy (IT Service Continuity Management)" topicguid="32059414-072f-45cf-ae44-2457e82c9540" />
+  <TopicGuidItem ItemID="71" topictitle="Phase 4: Deploy (Workforce Management)" topicguid="20e6b5fe-4545-4992-8345-427db9401d64" />
+  <TopicGuidItem ItemID="72" topictitle="Phased Approach" topicguid="178493b3-ce21-498d-8a81-a6ab01938933" />
+  <TopicGuidItem ItemID="73" topictitle="Planning for ADFS Implementation" topicguid="15a750a6-f588-4d2c-9628-6065a60e3e67" />
+  <TopicGuidItem ItemID="74" topictitle="Planning the Solution" topicguid="d44b942c-b68d-422f-a841-8667297d2e1b" />
+  <TopicGuidItem ItemID="75" topictitle="Post-Virtualization" topicguid="c064e5c7-2058-4be0-8bf3-2ddf7ac5229e" />
+  <TopicGuidItem ItemID="76" topictitle="Preparing to Implement Core IO Requirements" topicguid="10c0f74f-789f-4018-9a8d-4a84e7d892fa" />
+  <TopicGuidItem ItemID="77" topictitle="Quarantine Solution for Mobile Devices" topicguid="f791cfd3-edda-4a73-89b2-9fc3cd20f70a" />
+  <TopicGuidItem ItemID="78" topictitle="Recommended Processes for Moving to the Dynamic Level" topicguid="c3b98012-bfc9-4b87-84ef-fe6ff5cd6e22" />
+  <TopicGuidItem ItemID="79" topictitle="Restoring Data" topicguid="77e82eea-4ac8-4cab-80ce-1bdbe52e6ac5" />
+  <TopicGuidItem ItemID="80" topictitle="Security and Networking" topicguid="f90d39b4-328f-4b16-8acf-52142b35587d" />
+  <TopicGuidItem ItemID="81" topictitle="Security Process" topicguid="561902fb-a44c-423a-b1a0-42f6d33a6586" />
+  <TopicGuidItem ItemID="82" topictitle="Self-Service Provisioning" topicguid="71978464-bc50-4c6d-9a36-e85a1925c466" />
+  <TopicGuidItem ItemID="83" topictitle="Self Assessment" topicguid="22a9de21-4bbd-402b-9d51-63f6c07088af" />
+  <TopicGuidItem ItemID="84" topictitle="Setting Up the Infrastructure" topicguid="3ae9bb19-fea6-4032-aa27-b8e40d15ae10" />
+  <TopicGuidItem ItemID="85" topictitle="Setting Up Tools" topicguid="23813dd7-1933-4a33-91cd-b78fcb6cda41" />
+  <TopicGuidItem ItemID="86" topictitle="Solution Currency" topicguid="2679a2c4-0b15-4323-a3d4-5e9ff81ac568" />
+  <TopicGuidItem ItemID="87" topictitle="Stabilizing the Virtual Machine Infrastructure" topicguid="31317df1-65f9-4b12-b3ac-f8c782a39cab" />
+  <TopicGuidItem ItemID="88" topictitle="Storage and Media" topicguid="ece57d1f-e8ab-428c-89d8-a88553a489ce" />
+  <TopicGuidItem ItemID="89" topictitle="Summary" topicguid="a39a6b12-8801-4141-8446-53cc3d7f3913" />
+  <TopicGuidItem ItemID="90" topictitle="System Center Operations Manager 2007" topicguid="1530a345-0c37-4f10-954b-65740e5d0840" />
+  <TopicGuidItem ItemID="91" topictitle="System Center Virtual Machine Manager" topicguid="7cb61fb6-ffbf-44f4-815f-2e3cf6d7be24" />
+  <TopicGuidItem ItemID="92" topictitle="Topic Checkpoint" topicguid="6168d931-fc68-4bc8-b412-1b442ec88e69" />
+  <TopicGuidItem ItemID="93" topictitle="Virtual Private Networks (VPNs)" topicguid="efa76700-5675-4d9e-a619-cdf26aad18ee" />
+  <TopicGuidItem ItemID="94" topictitle="Workforce Management Considerations" topicguid="c751938a-d123-48b8-9a96-6f7b360dc88c" />
+  <TopicGuidItem ItemID="95" topictitle="Workforce Management Processes" topicguid="4130ebc8-7520-4c3c-9fc1-75e7a90e3f66" />
+  <TopicGuidItem ItemID="96" topictitle="Zero Touch Provisioning" topicguid="72c11e62-0c57-4b4c-87ca-c6efdc1027e0" />
+  <TopicGuidItem ItemID="97" topictitle="Additional Resources: Rationalized to Dynamic Checklist" topicguid="78794326-2237-4525-a7e5-5d4cf6dc7cf8" />
+  <TopicGuidItem ItemID="98" topictitle="Additional Resources: Tools and Technologies" topicguid="a35db4c3-52a9-4f2c-a648-72bdece9f584" />
+  <TopicGuidItem ItemID="99" topictitle="Core Infrastructure Optimization Implementer Resource Guide: Rationalized to Dynamic" topicguid="c02978c7-84ea-4d8a-b5c2-f96134ebe285" />
+</TopicGuidItems>

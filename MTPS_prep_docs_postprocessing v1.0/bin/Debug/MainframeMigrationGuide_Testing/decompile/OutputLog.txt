@@ -1,0 +1,424 @@
+﻿Found Visual Studio 2005 SDK w/ Help 2.0 SDK compiler.
+Begin decompiling help archive X:\MainframeMigrationGuide_Testing\decompile\MainframeMigGuide.HxS
+Microsoft Help Compiler Version 2.05.50727.42 Copyright (c) Microsoft Corp.
+
+Info: Exploding: X:\MainframeMigrationGuide_Testing\decompile\MainframeMigGuide.HxS.
+Info: Extracting: art\0cc6248e-153d-4c01-85f3-5279c31d6145.gif
+Info: Extracting: art\118db0be-020f-489e-b0f9-edb85d71e544.gif
+Info: Extracting: art\1ba4dbf2-4b61-4e0d-82b1-ad4ca9bbc354.gif
+Info: Extracting: art\265dd0a4-df3f-4570-8962-7d243ef43a70.gif
+Info: Extracting: art\473da080-73b9-406f-a3fd-effaa73756f0.gif
+Info: Extracting: art\4be6edf7-bf88-45c7-ad8a-0a277bc8cce7.gif
+Info: Extracting: art\5c3c8912-401e-4860-87c8-5bae0e66db6a.gif
+Info: Extracting: art\608afb49-190d-469c-8981-2d47d8ef2645.gif
+Info: Extracting: art\6231b221-34a1-4713-b97a-e9604e490168.gif
+Info: Extracting: art\6feaf09c-3a40-42df-888d-23b532208bb2.gif
+Info: Extracting: art\735f22e8-a018-4b30-ba46-fa3c0c95d7e3.gif
+Info: Extracting: art\8585364c-6004-4074-91de-990a9fb130bb.gif
+Info: Extracting: art\871220c4-9973-4714-b717-ce00b9c07fef.gif
+Info: Extracting: art\982a5ee4-c343-4c15-ac22-69091065056b.gif
+Info: Extracting: art\a25b2ed4-5ca5-420e-ae82-ebed34930b02.gif
+Info: Extracting: art\ad65845d-c8bd-4a86-ba9d-e71470953f1f.gif
+Info: Extracting: art\b4bcac72-be35-44c5-8704-87754e0af661.gif
+Info: Extracting: art\b681af32-6f91-4f03-922b-e97109902c16.gif
+Info: Extracting: art\c9cef746-0bbb-4ff9-8b21-3823ab256136.gif
+Info: Extracting: art\cc-madg_bluephoenix_it_discovery_diagram_png_big.gif
+Info: Extracting: art\cc-madg_bluephoenix_olap_query_bmp_big.gif
+Info: Extracting: art\cc-madg_bluephoenix_query_facility_bmp_big.gif
+Info: Extracting: art\cc-madg_cognizant_dimensions_impact_analysis_png_big.gif
+Info: Extracting: art\cc-madg_cognizant_legacy_ modernization_approach_png_big.gif
+Info: Extracting: art\cc-madg_cognizant_methodology_portfolio_analysis_png_big.gif
+Info: Extracting: art\cc-madg_cognizant_migration_analysis_recommendations_png_big.gif
+Info: Extracting: art\cc-madg_cognizant_migration_roadmap_big.gif
+Info: Extracting: art\cc-madg_fujitsu_ezsource_screenshot_png_big.gif
+Info: Extracting: art\cc-madg_fujitsu_org_chart_png_big.gif
+Info: Extracting: art\cc-madg_fujitsu_quickstart_png_big.gif
+Info: Extracting: art\cc-madg_infosys_ad_process_big.gif
+Info: Extracting: art\cc-madg_infosys_ad_project_overview_big.gif
+Info: Extracting: art\cc-madg_infosys_decision_plots_png_big.gif
+Info: Extracting: art\cc-madg_infosys_deliverables_png_big.gif
+Info: Extracting: art\cc-madg_infosys_future_state_arch_png_big.gif
+Info: Extracting: art\cc-madg_infosys_infinit_tool_png_big.gif
+Info: Extracting: art\cc-madg_infosys_influx_mapping_png_big.gif
+Info: Extracting: art\cc-madg_infosys_joint_responsibilities_png_big.gif
+Info: Extracting: art\cc-madg_mcs_sample_toc_png_big.gif
+Info: Extracting: art\cc-madg_microfocus_revolve_worksheet_bmp_big.gif
+Info: Extracting: art\dff76fec-5484-43fc-a97f-29d0d13ea958.gif
+Info: Extracting: art\e8a2fa6f-2609-47c9-b2ae-a00874d4369d.gif
+Info: Extracting: art\fee37038-c366-481b-bc44-101404b7a63b.gif
+Info: Extracting: html\07a79859-b191-4cca-8de6-1bf792b38521.htm
+Info: Extracting: html\211fd087-5e87-4386-b864-3cddc3e61098.htm
+Info: Extracting: html\2b3773a6-412f-4b15-81fe-9d5123e60aae.htm
+Info: Extracting: html\321464a6-2dc4-49ed-bba7-691971932aa8.htm
+Info: Extracting: html\4b4e6528-89fe-4138-8f86-468cd98fa249.htm
+Info: Extracting: html\53cf5245-8a40-4573-b35f-98def79c2c37.htm
+Info: Extracting: html\746319c1-4c67-4781-ab3a-92bca7eaf2c5.htm
+Info: Extracting: html\7d1df930-58c2-44a7-a8a0-3f8d9b164cd8.htm
+Info: Extracting: html\88cd8723-d80d-42a5-a6e8-8aceb4b394ca.htm
+Info: Extracting: html\b0ed204a-0e49-4094-b3da-16b4063a2676.htm
+Info: Extracting: local\admin16.gif
+Info: Extracting: local\admin32.gif
+Info: Extracting: local\analyst16.gif
+Info: Extracting: local\Analyst32.gif
+Info: Extracting: local\architect16.gif
+Info: Extracting: local\architect32.gif
+Info: Extracting: local\arrow.gif
+Info: Extracting: local\box.gif
+Info: Extracting: local\Caution.gif
+Info: Extracting: local\CFW.gif
+Info: Extracting: local\Classic.css
+Info: Extracting: local\collall.gif
+Info: Extracting: local\collapse.gif
+Info: Extracting: local\Consultant16.gif
+Info: Extracting: local\Consultant32.gif
+Info: Extracting: local\copycode.gif
+Info: Extracting: local\copycodeHighlight.gif
+Info: Extracting: local\dev16.gif
+Info: Extracting: local\dev32.gif
+Info: Extracting: local\drpdown.gif
+Info: Extracting: local\drpdown_orange.gif
+Info: Extracting: local\drpdown_orange_up.gif
+Info: Extracting: local\drpup.gif
+Info: Extracting: local\exp.gif
+Info: Extracting: local\expall.gif
+Info: Extracting: local\filter1a.gif
+Info: Extracting: local\filter1c.gif
+Info: Extracting: local\greencheck.gif
+Info: Extracting: local\greychck.gif
+Info: Extracting: local\header_prev_next.jpg
+Info: Extracting: local\header_sql_tutorial_blank.jpg
+Info: Extracting: local\header_sql_tutorial_logo.GIF
+Info: Extracting: local\infoworker16.gif
+Info: Extracting: local\infoworker32.gif
+Info: Extracting: local\load.gif
+Info: Extracting: local\load_hover.gif
+Info: Extracting: local\note.gif
+Info: Extracting: local\pencil.GIF
+Info: Extracting: local\protevent.gif
+Info: Extracting: local\protfield.gif
+Info: Extracting: local\protmethod.gif
+Info: Extracting: local\protoperator.gif
+Info: Extracting: local\protproperty.gif
+Info: Extracting: local\pubevent.gif
+Info: Extracting: local\pubfield.gif
+Info: Extracting: local\pubmethod.gif
+Info: Extracting: local\puboperator.gif
+Info: Extracting: local\pubproperty.gif
+Info: Extracting: local\requirements1a.gif
+Info: Extracting: local\requirements1c.gif
+Info: Extracting: local\samples.js
+Info: Extracting: local\save.gif
+Info: Extracting: local\save_hover.gif
+Info: Extracting: local\script.js
+Info: Extracting: local\script_chm.js
+Info: Extracting: local\script_fb.js
+Info: Extracting: local\script_loc.js
+Info: Extracting: local\script_main.js
+Info: Extracting: local\security.gif
+Info: Extracting: local\see_also_16.gif
+Info: Extracting: local\seealso1a.gif
+Info: Extracting: local\seealso1c.gif
+Info: Extracting: local\showSmpMgr.js
+Info: Extracting: local\smplMgr.js
+Info: Extracting: local\static.gif
+Info: Extracting: local\tooltip.htc
+Info: Extracting: local\user_16.gif
+Info: Extracting: local\user_32.gif
+Info: Extracting: local\whichroles_16.gif
+Info: Extracting: MainframeMigGuide.hxc
+Info: Extracting: MainframeMigGuide.HxF
+Info: Extracting: MainframeMigGuide.HxT
+Info: Extracting: MainframeMigGuideA.HxK
+Info: Extracting: MainframeMigGuideB.HxK
+Info: Extracting: MainframeMigGuideF.HxK
+Info: Extracting: MainframeMigGuideN.HxK
+Info: Extracting: MainframeMigGuideS.HxK
+Info: Extracting: msdnFTSstop_Unicode.stp
+Info: Processing complete.
+Info: No errors.
+End decompiling help archive X:\MainframeMigrationGuide_Testing\decompile\MainframeMigGuide.HxS
+X:\MainframeMigrationGuide_Testing\decompile\MainframeMigGuide.HxS was successfully decompiled.
+Wrote AssetID MSHelp Attrib. to 07a79859-b191-4cca-8de6-1bf792b38521.htm on Line: 12
+Wrote AssetID MSHelp Attrib. to 211fd087-5e87-4386-b864-3cddc3e61098.htm on Line: 12
+Wrote AssetID MSHelp Attrib. to 2b3773a6-412f-4b15-81fe-9d5123e60aae.htm on Line: 12
+Wrote AssetID MSHelp Attrib. to 321464a6-2dc4-49ed-bba7-691971932aa8.htm on Line: 12
+Wrote AssetID MSHelp Attrib. to 4b4e6528-89fe-4138-8f86-468cd98fa249.htm on Line: 12
+Wrote AssetID MSHelp Attrib. to 53cf5245-8a40-4573-b35f-98def79c2c37.htm on Line: 12
+Wrote AssetID MSHelp Attrib. to 746319c1-4c67-4781-ab3a-92bca7eaf2c5.htm on Line: 12
+Wrote AssetID MSHelp Attrib. to 7d1df930-58c2-44a7-a8a0-3f8d9b164cd8.htm on Line: 12
+Wrote AssetID MSHelp Attrib. to 88cd8723-d80d-42a5-a6e8-8aceb4b394ca.htm on Line: 12
+Wrote AssetID MSHelp Attrib. to b0ed204a-0e49-4094-b3da-16b4063a2676.htm on Line: 12
+There are Art/Images in the help archive X:\MainframeMigrationGuide_Testing\decompile\MainframeMigGuide.HxS that are too wide and MUST be edited to display properly to MTPS.
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_bluephoenix_it_discovery_diagram_png_big.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_bluephoenix_olap_query_bmp_big.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_bluephoenix_query_facility_bmp_big.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_cognizant_dimensions_impact_analysis_png_big.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_cognizant_legacy_ modernization_approach_png_big.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_cognizant_methodology_portfolio_analysis_png_big.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_cognizant_migration_analysis_recommendations_png_big.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_cognizant_migration_roadmap_big.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_fujitsu_ezsource_screenshot_png_big.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_fujitsu_org_chart_png_big.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_fujitsu_quickstart_png_big.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_infosys_ad_process_big.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_infosys_ad_project_overview_big.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_infosys_decision_plots_png_big.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_infosys_deliverables_png_big.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_infosys_future_state_arch_png_big.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_infosys_infinit_tool_png_big.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_infosys_influx_mapping_png_big.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_infosys_joint_responsibilities_png_big.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_mcs_sample_toc_png_big.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_microfocus_revolve_worksheet_bmp_big.gif
+End of Art/Images found to be to wide in archive X:\MainframeMigrationGuide_Testing\decompile\MainframeMigGuide.HxS.
+Begin reducing Art/Images too large in archive X:\MainframeMigrationGuide_Testing\decompile\MainframeMigGuide.HxS
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_bluephoenix_it_discovery_diagram_png_big.gif was propotially reduced in size.
+The art/image cc-madg_bluephoenix_it_discovery_diagram_png_big.gif was not specified for display in any html files in the path of X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_bluephoenix_olap_query_bmp_big.gif was propotially reduced in size.
+The art/image cc-madg_bluephoenix_olap_query_bmp_big.gif was not specified for display in any html files in the path of X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_bluephoenix_query_facility_bmp_big.gif was propotially reduced in size.
+The art/image cc-madg_bluephoenix_query_facility_bmp_big.gif was not specified for display in any html files in the path of X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_cognizant_dimensions_impact_analysis_png_big.gif was propotially reduced in size.
+The art/image cc-madg_cognizant_dimensions_impact_analysis_png_big.gif was not specified for display in any html files in the path of X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_cognizant_legacy_ modernization_approach_png_big.gif was propotially reduced in size.
+The art/image cc-madg_cognizant_legacy_ modernization_approach_png_big.gif was not specified for display in any html files in the path of X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_cognizant_methodology_portfolio_analysis_png_big.gif was propotially reduced in size.
+The art/image cc-madg_cognizant_methodology_portfolio_analysis_png_big.gif was not specified for display in any html files in the path of X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_cognizant_migration_analysis_recommendations_png_big.gif was propotially reduced in size.
+The art/image cc-madg_cognizant_migration_analysis_recommendations_png_big.gif was not specified for display in any html files in the path of X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_cognizant_migration_roadmap_big.gif was propotially reduced in size.
+The art/image cc-madg_cognizant_migration_roadmap_big.gif was not specified for display in any html files in the path of X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_fujitsu_ezsource_screenshot_png_big.gif was propotially reduced in size.
+The art/image cc-madg_fujitsu_ezsource_screenshot_png_big.gif was not specified for display in any html files in the path of X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_fujitsu_org_chart_png_big.gif was propotially reduced in size.
+The art/image cc-madg_fujitsu_org_chart_png_big.gif was not specified for display in any html files in the path of X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_fujitsu_quickstart_png_big.gif was propotially reduced in size.
+The art/image cc-madg_fujitsu_quickstart_png_big.gif was not specified for display in any html files in the path of X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_infosys_ad_process_big.gif was propotially reduced in size.
+The art/image cc-madg_infosys_ad_process_big.gif was not specified for display in any html files in the path of X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_infosys_ad_project_overview_big.gif was propotially reduced in size.
+The art/image cc-madg_infosys_ad_project_overview_big.gif was not specified for display in any html files in the path of X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_infosys_decision_plots_png_big.gif was propotially reduced in size.
+The art/image cc-madg_infosys_decision_plots_png_big.gif was not specified for display in any html files in the path of X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_infosys_deliverables_png_big.gif was propotially reduced in size.
+The art/image cc-madg_infosys_deliverables_png_big.gif was not specified for display in any html files in the path of X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_infosys_future_state_arch_png_big.gif was propotially reduced in size.
+The art/image cc-madg_infosys_future_state_arch_png_big.gif was not specified for display in any html files in the path of X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_infosys_infinit_tool_png_big.gif was propotially reduced in size.
+The art/image cc-madg_infosys_infinit_tool_png_big.gif was not specified for display in any html files in the path of X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_infosys_influx_mapping_png_big.gif was propotially reduced in size.
+The art/image cc-madg_infosys_influx_mapping_png_big.gif was not specified for display in any html files in the path of X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_infosys_joint_responsibilities_png_big.gif was propotially reduced in size.
+The art/image cc-madg_infosys_joint_responsibilities_png_big.gif was not specified for display in any html files in the path of X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_mcs_sample_toc_png_big.gif was propotially reduced in size.
+The art/image cc-madg_mcs_sample_toc_png_big.gif was not specified for display in any html files in the path of X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\cc-madg_microfocus_revolve_worksheet_bmp_big.gif was propotially reduced in size.
+The art/image cc-madg_microfocus_revolve_worksheet_bmp_big.gif was not specified for display in any html files in the path of X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\
+End reducing Art/Images too large in archive X:\MainframeMigrationGuide_Testing\decompile\MainframeMigGuide.HxS
+The following supported Art/Images were found in archive X:\MainframeMigrationGuide_Testing\decompile\MainframeMigGuide.HxS and have the correct maximum Art/Image dimentions:
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\0cc6248e-153d-4c01-85f3-5279c31d6145.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\118db0be-020f-489e-b0f9-edb85d71e544.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\1ba4dbf2-4b61-4e0d-82b1-ad4ca9bbc354.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\265dd0a4-df3f-4570-8962-7d243ef43a70.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\473da080-73b9-406f-a3fd-effaa73756f0.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\4be6edf7-bf88-45c7-ad8a-0a277bc8cce7.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\5c3c8912-401e-4860-87c8-5bae0e66db6a.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\608afb49-190d-469c-8981-2d47d8ef2645.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\6231b221-34a1-4713-b97a-e9604e490168.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\6feaf09c-3a40-42df-888d-23b532208bb2.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\735f22e8-a018-4b30-ba46-fa3c0c95d7e3.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\8585364c-6004-4074-91de-990a9fb130bb.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\871220c4-9973-4714-b717-ce00b9c07fef.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\982a5ee4-c343-4c15-ac22-69091065056b.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\a25b2ed4-5ca5-420e-ae82-ebed34930b02.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\ad65845d-c8bd-4a86-ba9d-e71470953f1f.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\b4bcac72-be35-44c5-8704-87754e0af661.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\b681af32-6f91-4f03-922b-e97109902c16.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\c9cef746-0bbb-4ff9-8b21-3823ab256136.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\dff76fec-5484-43fc-a97f-29d0d13ea958.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\e8a2fa6f-2609-47c9-b2ae-a00874d4369d.gif
+X:\MainframeMigrationGuide_Testing\decompile\TestOutput\art\fee37038-c366-481b-bc44-101404b7a63b.gif
+End of supported Art/Images list X:\MainframeMigrationGuide_Testing\decompile\MainframeMigGuide.HxS.
+Formatting publication date to September 24, 2007 in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\07a79859-b191-4cca-8de6-1bf792b38521.htm
+Applying publication date html of <td style="border: none"><br /><div class="date">Published: September 24, 2007</div><br /><br /> in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\07a79859-b191-4cca-8de6-1bf792b38521.htm
+Formatting publication date to September 24, 2007 in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\211fd087-5e87-4386-b864-3cddc3e61098.htm
+Applying publication date html of <td style="border: none"><br /><div class="date">Published: September 24, 2007</div><br /><br /> in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\211fd087-5e87-4386-b864-3cddc3e61098.htm
+Formatting publication date to September 24, 2007 in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\2b3773a6-412f-4b15-81fe-9d5123e60aae.htm
+Applying publication date html of <td style="border: none"><br /><div class="date">Published: September 24, 2007</div><br /><br /> in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\2b3773a6-412f-4b15-81fe-9d5123e60aae.htm
+Formatting publication date to September 24, 2007 in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\321464a6-2dc4-49ed-bba7-691971932aa8.htm
+Applying publication date html of <td style="border: none"><br /><div class="date">Published: September 24, 2007</div><br /><br /> in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\321464a6-2dc4-49ed-bba7-691971932aa8.htm
+Formatting publication date to September 24, 2007 in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\4b4e6528-89fe-4138-8f86-468cd98fa249.htm
+Applying publication date html of <td style="border: none"><br /><div class="date">Published: September 24, 2007</div><br /><br /> in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\4b4e6528-89fe-4138-8f86-468cd98fa249.htm
+Formatting publication date to September 24, 2007 in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\53cf5245-8a40-4573-b35f-98def79c2c37.htm
+Applying publication date html of <td style="border: none"><br /><div class="date">Published: September 24, 2007</div><br /><br /> in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\53cf5245-8a40-4573-b35f-98def79c2c37.htm
+Formatting publication date to September 24, 2007 in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\746319c1-4c67-4781-ab3a-92bca7eaf2c5.htm
+Applying publication date html of <td style="border: none"><br /><div class="date">Published: September 24, 2007</div><br /><br /> in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\746319c1-4c67-4781-ab3a-92bca7eaf2c5.htm
+Formatting publication date to September 24, 2007 in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\7d1df930-58c2-44a7-a8a0-3f8d9b164cd8.htm
+Applying publication date html of <td style="border: none"><br /><div class="date">Published: September 24, 2007</div><br /><br /> in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\7d1df930-58c2-44a7-a8a0-3f8d9b164cd8.htm
+Formatting publication date to September 24, 2007 in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\88cd8723-d80d-42a5-a6e8-8aceb4b394ca.htm
+Applying publication date html of <td style="border: none"><br /><div class="date">Published: September 24, 2007</div><br /><br /> in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\88cd8723-d80d-42a5-a6e8-8aceb4b394ca.htm
+Formatting publication date to September 24, 2007 in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\b0ed204a-0e49-4094-b3da-16b4063a2676.htm
+Applying publication date html of <td style="border: none"><br /><div class="date">Published: September 24, 2007</div><br /><br /> in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\b0ed204a-0e49-4094-b3da-16b4063a2676.htm
+Applying sidebar download link html of <a href="http://go.microsoft.com/fwlink/?linkid=66723">Get the Mainframe Modernization: Assessment in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\07a79859-b191-4cca-8de6-1bf792b38521.htm
+Applying sidebar download link html of <a href="http://go.microsoft.com/fwlink/?linkid=66723">Get the Mainframe Modernization: Assessment in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\211fd087-5e87-4386-b864-3cddc3e61098.htm
+Applying sidebar download link html of <a href="http://go.microsoft.com/fwlink/?linkid=66723">Get the Mainframe Modernization: Assessment in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\2b3773a6-412f-4b15-81fe-9d5123e60aae.htm
+Applying sidebar download link html of <a href="http://go.microsoft.com/fwlink/?linkid=66723">Get the Mainframe Modernization: Assessment in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\321464a6-2dc4-49ed-bba7-691971932aa8.htm
+Applying sidebar download link html of <a href="http://go.microsoft.com/fwlink/?linkid=66723">Get the Mainframe Modernization: Assessment in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\4b4e6528-89fe-4138-8f86-468cd98fa249.htm
+Applying sidebar download link html of <a href="http://go.microsoft.com/fwlink/?linkid=66723">Get the Mainframe Modernization: Assessment and in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\53cf5245-8a40-4573-b35f-98def79c2c37.htm
+Applying sidebar download link html of <a href="http://go.microsoft.com/fwlink/?linkid=66723">Get the Mainframe Modernization: Assessment in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\746319c1-4c67-4781-ab3a-92bca7eaf2c5.htm
+Applying sidebar download link html of <a href="http://go.microsoft.com/fwlink/?linkid=66723">Get the Mainframe Modernization: Assessment in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\7d1df930-58c2-44a7-a8a0-3f8d9b164cd8.htm
+Applying sidebar download link html of <a href="http://go.microsoft.com/fwlink/?linkid=66723">Get the Mainframe Modernization: Assessment in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\88cd8723-d80d-42a5-a6e8-8aceb4b394ca.htm
+Applying sidebar download link html of <a href="http://go.microsoft.com/fwlink/?linkid=66723">Get the Mainframe Modernization: Assessment in html file X:\MainframeMigrationGuide_Testing\decompile\TestOutput\html\b0ed204a-0e49-4094-b3da-16b4063a2676.htm
+Begin recompiling help archive X:\MainframeMigrationGuide_Testing\decompile\MainframeMigGuide.HxS
+Microsoft Help Compiler Version 2.05.50727.42 Copyright (c) Microsoft Corp.
+
+Info: Building output files X:\MainframeMigrationGuide_Testing\decompile\MainframeMigGuide.HxS and X:\MainframeMigrationGuide_Testing\decompile\MainframeMigGuide.HxI.
+Info: Parsing topic  1: /html/2b3773a6-412f-4b15-81fe-9d5123e60aae.htm
+Info: Parsing topic  2: /html/746319c1-4c67-4781-ab3a-92bca7eaf2c5.htm
+Info: Parsing topic  3: /html/88cd8723-d80d-42a5-a6e8-8aceb4b394ca.htm
+Info: Parsing topic  4: /html/b0ed204a-0e49-4094-b3da-16b4063a2676.htm
+Info: Parsing topic  5: /html/321464a6-2dc4-49ed-bba7-691971932aa8.htm
+Info: Parsing topic  6: /html/7d1df930-58c2-44a7-a8a0-3f8d9b164cd8.htm
+Info: Parsing topic  7: /html/211fd087-5e87-4386-b864-3cddc3e61098.htm
+Info: Parsing topic  8: /html/07a79859-b191-4cca-8de6-1bf792b38521.htm
+Info: Parsing topic  9: /html/4b4e6528-89fe-4138-8f86-468cd98fa249.htm
+Info: Parsing topic  10: /html/53cf5245-8a40-4573-b35f-98def79c2c37.htm
+Info: Saving topic  1: /html/2b3773a6-412f-4b15-81fe-9d5123e60aae.htm
+Info: Saving topic  2: /html/746319c1-4c67-4781-ab3a-92bca7eaf2c5.htm
+Info: Saving topic  3: /html/88cd8723-d80d-42a5-a6e8-8aceb4b394ca.htm
+Info: Saving topic  4: /html/b0ed204a-0e49-4094-b3da-16b4063a2676.htm
+Info: Saving topic  5: /html/321464a6-2dc4-49ed-bba7-691971932aa8.htm
+Info: Saving topic  6: /html/7d1df930-58c2-44a7-a8a0-3f8d9b164cd8.htm
+Info: Saving topic  7: /html/211fd087-5e87-4386-b864-3cddc3e61098.htm
+Info: Saving topic  8: /html/07a79859-b191-4cca-8de6-1bf792b38521.htm
+Info: Saving topic  9: /html/4b4e6528-89fe-4138-8f86-468cd98fa249.htm
+Info: Saving topic  10: /html/53cf5245-8a40-4573-b35f-98def79c2c37.htm
+Info: Saving topic : /local/admin16.gif
+Info: Saving topic : /local/admin32.gif
+Info: Saving topic : /local/analyst16.gif
+Info: Saving topic : /local/Analyst32.gif
+Info: Saving topic : /local/architect16.gif
+Info: Saving topic : /local/architect32.gif
+Info: Saving topic : /local/arrow.gif
+Info: Saving topic : /local/box.gif
+Info: Saving topic : /local/Caution.gif
+Info: Saving topic : /local/CFW.gif
+Info: Saving topic : /local/Classic.css
+Info: Saving topic : /local/collall.gif
+Info: Saving topic : /local/collapse.gif
+Info: Saving topic : /local/Consultant16.gif
+Info: Saving topic : /local/Consultant32.gif
+Info: Saving topic : /local/copycode.gif
+Info: Saving topic : /local/copycodeHighlight.gif
+Info: Saving topic : /local/dev16.gif
+Info: Saving topic : /local/dev32.gif
+Info: Saving topic : /local/drpdown.gif
+Info: Saving topic : /local/drpdown_orange.gif
+Info: Saving topic : /local/drpdown_orange_up.gif
+Info: Saving topic : /local/drpup.gif
+Info: Saving topic : /local/exp.gif
+Info: Saving topic : /local/expall.gif
+Info: Saving topic : /local/filter1a.gif
+Info: Saving topic : /local/filter1c.gif
+Info: Saving topic : /local/greencheck.gif
+Info: Saving topic : /local/greychck.gif
+Info: Saving topic : /local/header_prev_next.jpg
+Info: Saving topic : /local/header_sql_tutorial_blank.jpg
+Info: Saving topic : /local/header_sql_tutorial_logo.GIF
+Info: Saving topic : /local/infoworker16.gif
+Info: Saving topic : /local/infoworker32.gif
+Info: Saving topic : /local/load.gif
+Info: Saving topic : /local/load_hover.gif
+Info: Saving topic : /local/note.gif
+Info: Saving topic : /local/pencil.GIF
+Info: Saving topic : /local/protevent.gif
+Info: Saving topic : /local/protfield.gif
+Info: Saving topic : /local/protmethod.gif
+Info: Saving topic : /local/protoperator.gif
+Info: Saving topic : /local/protproperty.gif
+Info: Saving topic : /local/pubevent.gif
+Info: Saving topic : /local/pubfield.gif
+Info: Saving topic : /local/pubmethod.gif
+Info: Saving topic : /local/puboperator.gif
+Info: Saving topic : /local/pubproperty.gif
+Info: Saving topic : /local/requirements1a.gif
+Info: Saving topic : /local/requirements1c.gif
+Info: Saving topic : /local/samples.js
+Info: Saving topic : /local/save.gif
+Info: Saving topic : /local/save_hover.gif
+Info: Saving topic : /local/script.js
+Info: Saving topic : /local/script_chm.js
+Info: Saving topic : /local/script_fb.js
+Info: Saving topic : /local/script_loc.js
+Info: Saving topic : /local/script_main.js
+Info: Saving topic : /local/security.gif
+Info: Saving topic : /local/seealso1a.gif
+Info: Saving topic : /local/seealso1c.gif
+Info: Saving topic : /local/see_also_16.gif
+Info: Saving topic : /local/showSmpMgr.js
+Info: Saving topic : /local/smplMgr.js
+Info: Saving topic : /local/static.gif
+Info: Saving topic : /local/tooltip.htc
+Info: Saving topic : /local/user_16.gif
+Info: Saving topic : /local/user_32.gif
+Info: Saving topic : /local/whichroles_16.gif
+Info: Saving topic : /art/fee37038-c366-481b-bc44-101404b7a63b.gif
+Info: Saving topic : /art/c9cef746-0bbb-4ff9-8b21-3823ab256136.gif
+Info: Saving topic : /art/0cc6248e-153d-4c01-85f3-5279c31d6145.gif
+Info: Saving topic : /art/608afb49-190d-469c-8981-2d47d8ef2645.gif
+Info: Saving topic : /art/8585364c-6004-4074-91de-990a9fb130bb.gif
+Info: Saving topic : /art/982a5ee4-c343-4c15-ac22-69091065056b.gif
+Info: Saving topic : /art/6feaf09c-3a40-42df-888d-23b532208bb2.gif
+Info: Saving topic : /art/a25b2ed4-5ca5-420e-ae82-ebed34930b02.gif
+Info: Saving topic : /art/b681af32-6f91-4f03-922b-e97109902c16.gif
+Info: Saving topic : /art/265dd0a4-df3f-4570-8962-7d243ef43a70.gif
+Info: Saving topic : /art/473da080-73b9-406f-a3fd-effaa73756f0.gif
+Info: Saving topic : /art/dff76fec-5484-43fc-a97f-29d0d13ea958.gif
+Info: Saving topic : /art/871220c4-9973-4714-b717-ce00b9c07fef.gif
+Info: Saving topic : /art/e8a2fa6f-2609-47c9-b2ae-a00874d4369d.gif
+Info: Saving topic : /art/4be6edf7-bf88-45c7-ad8a-0a277bc8cce7.gif
+Info: Saving topic : /art/b4bcac72-be35-44c5-8704-87754e0af661.gif
+Info: Saving topic : /art/5c3c8912-401e-4860-87c8-5bae0e66db6a.gif
+Info: Saving topic : /art/118db0be-020f-489e-b0f9-edb85d71e544.gif
+Info: Saving topic : /art/1ba4dbf2-4b61-4e0d-82b1-ad4ca9bbc354.gif
+Info: Saving topic : /art/735f22e8-a018-4b30-ba46-fa3c0c95d7e3.gif
+Info: Saving topic : /art/ad65845d-c8bd-4a86-ba9d-e71470953f1f.gif
+Info: Saving topic : /art/6231b221-34a1-4713-b97a-e9604e490168.gif
+Info: Saving topic : /art/cc-madg_mcs_sample_toc_png_big.gif
+Info: Saving topic : /art/cc-madg_bluephoenix_it_discovery_diagram_png_big.gif
+Info: Saving topic : /art/cc-madg_bluephoenix_olap_query_bmp_big.gif
+Info: Saving topic : /art/cc-madg_bluephoenix_query_facility_bmp_big.gif
+Info: Saving topic : /art/cc-madg_cognizant_dimensions_impact_analysis_png_big.gif
+Info: Saving topic : /art/cc-madg_cognizant_legacy_ modernization_approach_png_big.gif
+Info: Saving topic : /art/cc-madg_cognizant_methodology_portfolio_analysis_png_big.gif
+Info: Saving topic : /art/cc-madg_cognizant_migration_analysis_recommendations_png_big.gif
+Info: Saving topic : /art/cc-madg_cognizant_migration_roadmap_big.gif
+Info: Saving topic : /art/cc-madg_fujitsu_ezsource_screenshot_png_big.gif
+Info: Saving topic : /art/cc-madg_fujitsu_org_chart_png_big.gif
+Info: Saving topic : /art/cc-madg_fujitsu_quickstart_png_big.gif
+Info: Saving topic : /art/cc-madg_infosys_ad_process_big.gif
+Info: Saving topic : /art/cc-madg_infosys_ad_project_overview_big.gif
+Info: Saving topic : /art/cc-madg_infosys_decision_plots_png_big.gif
+Info: Saving topic : /art/cc-madg_infosys_deliverables_png_big.gif
+Info: Saving topic : /art/cc-madg_infosys_future_state_arch_png_big.gif
+Info: Saving topic : /art/cc-madg_infosys_infinit_tool_png_big.gif
+Info: Saving topic : /art/cc-madg_infosys_influx_mapping_png_big.gif
+Info: Saving topic : /art/cc-madg_infosys_joint_responsibilities_png_big.gif
+Info: Saving topic : /art/cc-madg_microfocus_revolve_worksheet_bmp_big.gif
+Info: Saving topic : /html/MainframeMigGuide.HxS_GUID_List.xml
+Info: Saving topic : \MainframeMigGuide.hxc
+Info: Saving topic : \msdnFTSstop_Unicode.stp
+Info: Saving topic : \MainframeMigGuide.HxF
+Info: Saving topic : \MainframeMigGuide.HxT
+Info: Saving topic : \MainframeMigGuideF.HxK
+Info: Saving topic : \MainframeMigGuideN.HxK
+Info: Saving topic : \MainframeMigGuideA.HxK
+Info: Saving topic : \MainframeMigGuideS.HxK
+Info: Saving topic : \MainframeMigGuideB.HxK
+Info: Number of Topics: 10.
+Info: Number of URLs: 10.
+Info: Processing complete.
+Info: No errors.
+End recompiling help archive X:\MainframeMigrationGuide_Testing\decompile\MainframeMigGuide.HxS
+X:\MainframeMigrationGuide_Testing\decompile\MainframeMigGuide.HxS was successfully recompiled.
+The MTPS Publish Preparation operation completed for: X:\MainframeMigrationGuide_Testing\decompile\MainframeMigGuide.HxS

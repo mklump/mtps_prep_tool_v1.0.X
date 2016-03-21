@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="yes"?>
+<TopicGuidItems>
+  <xs:schema id="TopicGuidItems" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="TopicGuidItems" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="TopicGuidItem">
+            <xs:complexType>
+              <xs:attribute name="ItemID" type="xs:int" use="required" />
+              <xs:attribute name="topictitle" type="xs:string" />
+              <xs:attribute name="topicguid" type="xs:string" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//TopicGuidItem" />
+        <xs:field xpath="@ItemID" />
+      </xs:unique>
+      <xs:unique name="Constraint2">
+        <xs:selector xpath=".//TopicGuidItem" />
+        <xs:field xpath="@topicguid" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <TopicGuidItem ItemID="1" topictitle="Chapter 8: Microsoft Consulting Services" topicguid="fdcd2d18-db91-40c5-ab5c-e575229253d0" />
+  <TopicGuidItem ItemID="2" topictitle="Chapter 7: Micro Focus" topicguid="c24839d0-d40b-4f6c-9731-debb45ee0536" />
+  <TopicGuidItem ItemID="3" topictitle="Chapter 1: About This Guide" topicguid="c57978be-c52f-4aa5-9f63-22c5ac5823f6" />
+  <TopicGuidItem ItemID="4" topictitle="Chapter 5: Fujitsu Consulting" topicguid="e1e6021f-6683-43fd-9866-a4e60329794d" />
+  <TopicGuidItem ItemID="5" topictitle="Appendix: Sample Questions for an Assessment/Discovery Project" topicguid="3c3fae2e-6ce4-41a3-bfb1-2d39b2b039c6" />
+  <TopicGuidItem ItemID="6" topictitle="Acknowledgments" topicguid="299b2bb2-5e31-40a6-b968-e3351220d49b" />
+  <TopicGuidItem ItemID="7" topictitle="Chapter 2: Why Undertake Assessment/Discovery?" topicguid="6bd1dc83-0e39-4ffa-ae05-5e14d90035b3" />
+  <TopicGuidItem ItemID="8" topictitle="Chapter 6: Infosys Technologies Ltd." topicguid="5c8f2b59-c067-482c-a7ab-166909eecb0a" />
+  <TopicGuidItem ItemID="9" topictitle="Chapter 3: BluePhoenix Solutions" topicguid="dd08780b-ce9b-45ef-8cb4-f0a0a3962ab4" />
+  <TopicGuidItem ItemID="10" topictitle="Chapter 4: Cognizant Technology Solutions" topicguid="c197ec52-2151-485a-bf23-2e1c56c4f676" />
+</TopicGuidItems>
